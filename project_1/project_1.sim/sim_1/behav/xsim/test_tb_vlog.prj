@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../rtl/ber.v" \
+"../../../../../rtl/decision.v" \
+"../../../../../rtl/des/delay_line.v" \
+"../../../../../rtl/des/des.v" \
+"../../../../../rtl/des/des_E.v" \
+"../../../../../rtl/des/des_IP.v" \
+"../../../../../rtl/des/des_IP1.v" \
+"../../../../../rtl/des/des_P.v" \
+"../../../../../rtl/des/des_PC1.v" \
+"../../../../../rtl/des/des_PC2.v" \
+"../../../../../rtl/des/des_S.v" \
+"../../../../../rtl/des/des_feistel.v" \
+"../../../../../rtl/des/des_key_schedule.v" \
+"../../../../../rtl/des/des_round.v" \
+"../../../../../rtl/interpolation.v" \
+"../../../../../rtl/interpolation_unit.v" \
+"../../../../../rtl/rc_filter.v" \
+"../../../../../rtl/rom.v" \
+"../../../../../rtl/rx.v" \
+"../../../../../rtl/top.v" \
+"../../../../../rtl/tx.v" \
+"../../../../../sim/test_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

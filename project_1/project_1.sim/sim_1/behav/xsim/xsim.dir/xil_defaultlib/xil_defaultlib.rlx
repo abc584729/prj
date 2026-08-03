@@ -1,0 +1,27 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/ber.v,1785734542,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v,,ber,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v,1785733868,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v,,decision,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v,,delay_line,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v,,des,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v,,des_E,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v,,des_IP,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v,,des_IP1,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v,,des_P,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v,,des_PC1,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v,,des_PC2,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v,,des_S,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v,,des_feistel,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v,,des_key_schedule,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v,1766133109,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v,,des_round,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v,1785720886,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v,,interpolation,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v,1785732353,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v,,interpolation_unit_1;interpolation_unit_2;interpolation_unit_3;interpolation_unit_4,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v,1785732052,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v,,rc_filter,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v,1785734475,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v,,rom,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v,1785733886,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v,,rx,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v,1785731515,verilog,,C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v,,top,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v,1785723836,verilog,,C:/Users/33064/OneDrive/Desktop/prj/sim/test_tb.v,,tx,,,,,,,,
+C:/Users/33064/OneDrive/Desktop/prj/sim/test_tb.v,1785735051,verilog,,,,test_tb,,,,,,,,

@@ -1,0 +1,1070 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xcvc1802-viva1596-1LHP-i-L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvc1802'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvc1802'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19040
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1223.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'tx' [C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rom' [C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rom' (1#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized0' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized0' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized1' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized2' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized3' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized3' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized4' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized4' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized5' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized5' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized6' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized6' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized7' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized7' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized8' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized8' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized9' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized9' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized10' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized10' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized11' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized11' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized12' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized12' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized13' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 48 - type: integer 
+	Parameter DEPTH bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized13' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_round' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_feistel' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_S' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized0' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized0' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized1' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized2' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized3' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized3' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized4' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized4' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized5' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized5' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized6' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+	Parameter SBOX_ID bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized6' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_E' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_E' (4#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_P' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_P' (5#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_feistel' (6#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_round' (7#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_key_schedule' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC1' (8#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC2' (9#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_key_schedule' (10#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized14' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+	Parameter WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 34 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized14' (10#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_IP' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP' (11#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_IP1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP1' (12#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des' (13#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v:22]
+INFO: [Synth 8-6157] synthesizing module 'rc_filter' [C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'interpolation' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v:23]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_1' (14#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_2' (15#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:52]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_3' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_3' (16#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:81]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_4' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_4' (17#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation' (18#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rc_filter' (19#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'tx' (20#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rx' [C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'decision' [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'decision' (21#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ber' [C:/Users/33064/OneDrive/Desktop/prj/rtl/ber.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ber' (22#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/ber.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rx' (23#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (24#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1223.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1223.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvc1802-viva1596-1LHP-i-L
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1223.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1223.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'u_tx/bit_lib' (rom) to 'u_tx/key_lib'
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 96    
+	   2 Input    5 Bit       Adders := 3     
++---XORs : 
+	   2 Input     48 Bit         XORs := 32    
+	   2 Input     32 Bit         XORs := 32    
++---Registers : 
+	               64 Bit    Registers := 40    
+	               48 Bit    Registers := 480   
+	               32 Bit    Registers := 64    
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 128   
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 256   
+	                2 Bit    Registers := 289   
+	                1 Bit    Registers := 74    
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 33    
+	   2 Input   48 Bit        Muxes := 32    
+	   5 Input    6 Bit        Muxes := 256   
+	   2 Input    5 Bit        Muxes := 6     
+	  19 Input    4 Bit        Muxes := 256   
+	   2 Input    2 Bit        Muxes := 33    
+	   4 Input    2 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1600 (col length:164)
+BRAMs: 1600 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:01 ; elapsed = 00:02:07 . Memory (MB): peak = 2110.336 ; gain = 887.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|rom         | p_0_out    | 32x64         | LUT            | 
+|ber         | p_0_out    | 32x64         | LUT            | 
+|top         | p_0_out    | 32x64         | LUT            | 
+|top         | p_0_out    | 32x64         | LUT            | 
+|top         | p_0_out    | 32x64         | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:02 ; elapsed = 00:02:07 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:07 ; elapsed = 00:02:12 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:12 ; elapsed = 00:02:17 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:12 ; elapsed = 00:02:17 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:12 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:12 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top         | u_tx/encrypt/genblk1[14].u_delay1/shift_reg_reg[27][35] | 28     | 8     | NO           | NO                 | YES               | 0      | 8       | 
+|top         | u_tx/encrypt/genblk1[15].u_delay1/shift_reg_reg[29][46] | 4      | 96    | NO           | NO                 | YES               | 96     | 0       | 
+|top         | u_tx/encrypt/DES_ROUND_PIPE[1].round_i/L_pipe_reg[31]   | 3      | 480   | NO           | NO                 | YES               | 480    | 0       | 
+|top         | u_tx/encrypt/result_reg[63]                             | 3      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|top         | u_tx/encrypt/genblk1[13].u_delay1/shift_reg_reg[25][44] | 26     | 48    | NO           | NO                 | YES               | 0      | 48      | 
+|top         | u_rx/decrypt/genblk1[14].u_delay1/shift_reg_reg[27][44] | 28     | 8     | NO           | NO                 | YES               | 0      | 8       | 
+|top         | u_rx/decrypt/genblk1[15].u_delay1/shift_reg_reg[29][36] | 4      | 96    | NO           | NO                 | YES               | 96     | 0       | 
+|top         | u_rx/decrypt/DES_ROUND_PIPE[1].round_i/L_pipe_reg[31]   | 3      | 480   | NO           | NO                 | YES               | 480    | 0       | 
+|top         | u_rx/decrypt/result_reg[63]                             | 3      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|top         | u_rx/decrypt/genblk1[14].u_delay1/shift_reg_reg[25][31] | 26     | 48    | NO           | NO                 | YES               | 0      | 48      | 
+|top         | u_tx/encrypt/u_delay1/shift_reg_reg[33][0]              | 34     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|top         | u_rx/decrypt/u_delay1/shift_reg_reg[33][0]              | 34     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|top         | u_rx/u_decision/bit_valid_reg                           | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+---------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     1|
+|2     |LOOKAHEAD8 |     6|
+|3     |LUT1       |    64|
+|4     |LUT2       |  2694|
+|5     |LUT3       |     4|
+|6     |LUT4       |     3|
+|7     |LUT5       |   187|
+|8     |LUT6       |  1027|
+|9     |LUT6CY     |    47|
+|10    |SRL16E     |  1217|
+|11    |SRLC32E    |   114|
+|12    |FDCE       |   261|
+|13    |FDCP       |    62|
+|14    |FDRE       |  6531|
+|15    |IBUF       |     3|
+|16    |OBUF       |    16|
++------+-----------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------+--------------------------------+------+
+|      |Instance                                    |Module                          |Cells |
++------+--------------------------------------------+--------------------------------+------+
+|1     |top                                         |                                | 12237|
+|2     |  u_rx                                      |rx                              |  6064|
+|3     |    cal_error                               |ber                             |    95|
+|4     |    decrypt                                 |des_212                         |  5724|
+|5     |      \DES_ROUND_PIPE[0].round_i            |des_round_214                   |   192|
+|6     |        u_des_feistel                       |des_feistel_381                 |   160|
+|7     |          \SBOX[0].u_sbox                   |des_S_382                       |    14|
+|8     |          \SBOX[1].u_sbox                   |des_S__parameterized0_383       |    14|
+|9     |          \SBOX[2].u_sbox                   |des_S__parameterized1_384       |    14|
+|10    |          \SBOX[3].u_sbox                   |des_S__parameterized2_385       |    14|
+|11    |          \SBOX[4].u_sbox                   |des_S__parameterized3_386       |    14|
+|12    |          \SBOX[5].u_sbox                   |des_S__parameterized4_387       |    14|
+|13    |          \SBOX[6].u_sbox                   |des_S__parameterized5_388       |    14|
+|14    |          \SBOX[7].u_sbox                   |des_S__parameterized6_389       |    14|
+|15    |      \DES_ROUND_PIPE[10].round_i           |des_round_215                   |   192|
+|16    |        u_des_feistel                       |des_feistel_372                 |   160|
+|17    |          \SBOX[0].u_sbox                   |des_S_373                       |    14|
+|18    |          \SBOX[1].u_sbox                   |des_S__parameterized0_374       |    14|
+|19    |          \SBOX[2].u_sbox                   |des_S__parameterized1_375       |    14|
+|20    |          \SBOX[3].u_sbox                   |des_S__parameterized2_376       |    14|
+|21    |          \SBOX[4].u_sbox                   |des_S__parameterized3_377       |    14|
+|22    |          \SBOX[5].u_sbox                   |des_S__parameterized4_378       |    14|
+|23    |          \SBOX[6].u_sbox                   |des_S__parameterized5_379       |    14|
+|24    |          \SBOX[7].u_sbox                   |des_S__parameterized6_380       |    14|
+|25    |      \DES_ROUND_PIPE[11].round_i           |des_round_216                   |   192|
+|26    |        u_des_feistel                       |des_feistel_363                 |   160|
+|27    |          \SBOX[0].u_sbox                   |des_S_364                       |    14|
+|28    |          \SBOX[1].u_sbox                   |des_S__parameterized0_365       |    14|
+|29    |          \SBOX[2].u_sbox                   |des_S__parameterized1_366       |    14|
+|30    |          \SBOX[3].u_sbox                   |des_S__parameterized2_367       |    14|
+|31    |          \SBOX[4].u_sbox                   |des_S__parameterized3_368       |    14|
+|32    |          \SBOX[5].u_sbox                   |des_S__parameterized4_369       |    14|
+|33    |          \SBOX[6].u_sbox                   |des_S__parameterized5_370       |    14|
+|34    |          \SBOX[7].u_sbox                   |des_S__parameterized6_371       |    14|
+|35    |      \DES_ROUND_PIPE[12].round_i           |des_round_217                   |   192|
+|36    |        u_des_feistel                       |des_feistel_354                 |   160|
+|37    |          \SBOX[0].u_sbox                   |des_S_355                       |    14|
+|38    |          \SBOX[1].u_sbox                   |des_S__parameterized0_356       |    14|
+|39    |          \SBOX[2].u_sbox                   |des_S__parameterized1_357       |    14|
+|40    |          \SBOX[3].u_sbox                   |des_S__parameterized2_358       |    14|
+|41    |          \SBOX[4].u_sbox                   |des_S__parameterized3_359       |    14|
+|42    |          \SBOX[5].u_sbox                   |des_S__parameterized4_360       |    14|
+|43    |          \SBOX[6].u_sbox                   |des_S__parameterized5_361       |    14|
+|44    |          \SBOX[7].u_sbox                   |des_S__parameterized6_362       |    14|
+|45    |      \DES_ROUND_PIPE[13].round_i           |des_round_218                   |   192|
+|46    |        u_des_feistel                       |des_feistel_345                 |   160|
+|47    |          \SBOX[0].u_sbox                   |des_S_346                       |    14|
+|48    |          \SBOX[1].u_sbox                   |des_S__parameterized0_347       |    14|
+|49    |          \SBOX[2].u_sbox                   |des_S__parameterized1_348       |    14|
+|50    |          \SBOX[3].u_sbox                   |des_S__parameterized2_349       |    14|
+|51    |          \SBOX[4].u_sbox                   |des_S__parameterized3_350       |    14|
+|52    |          \SBOX[5].u_sbox                   |des_S__parameterized4_351       |    14|
+|53    |          \SBOX[6].u_sbox                   |des_S__parameterized5_352       |    14|
+|54    |          \SBOX[7].u_sbox                   |des_S__parameterized6_353       |    14|
+|55    |      \DES_ROUND_PIPE[14].round_i           |des_round_219                   |   192|
+|56    |        u_des_feistel                       |des_feistel_336                 |   160|
+|57    |          \SBOX[0].u_sbox                   |des_S_337                       |    14|
+|58    |          \SBOX[1].u_sbox                   |des_S__parameterized0_338       |    14|
+|59    |          \SBOX[2].u_sbox                   |des_S__parameterized1_339       |    14|
+|60    |          \SBOX[3].u_sbox                   |des_S__parameterized2_340       |    14|
+|61    |          \SBOX[4].u_sbox                   |des_S__parameterized3_341       |    14|
+|62    |          \SBOX[5].u_sbox                   |des_S__parameterized4_342       |    14|
+|63    |          \SBOX[6].u_sbox                   |des_S__parameterized5_343       |    14|
+|64    |          \SBOX[7].u_sbox                   |des_S__parameterized6_344       |    14|
+|65    |      \DES_ROUND_PIPE[15].round_i           |des_round_220                   |   192|
+|66    |        u_des_feistel                       |des_feistel_327                 |   160|
+|67    |          \SBOX[0].u_sbox                   |des_S_328                       |    14|
+|68    |          \SBOX[1].u_sbox                   |des_S__parameterized0_329       |    14|
+|69    |          \SBOX[2].u_sbox                   |des_S__parameterized1_330       |    14|
+|70    |          \SBOX[3].u_sbox                   |des_S__parameterized2_331       |    14|
+|71    |          \SBOX[4].u_sbox                   |des_S__parameterized3_332       |    14|
+|72    |          \SBOX[5].u_sbox                   |des_S__parameterized4_333       |    14|
+|73    |          \SBOX[6].u_sbox                   |des_S__parameterized5_334       |    14|
+|74    |          \SBOX[7].u_sbox                   |des_S__parameterized6_335       |    14|
+|75    |      \DES_ROUND_PIPE[1].round_i            |des_round_221                   |   192|
+|76    |        u_des_feistel                       |des_feistel_318                 |   160|
+|77    |          \SBOX[0].u_sbox                   |des_S_319                       |    14|
+|78    |          \SBOX[1].u_sbox                   |des_S__parameterized0_320       |    14|
+|79    |          \SBOX[2].u_sbox                   |des_S__parameterized1_321       |    14|
+|80    |          \SBOX[3].u_sbox                   |des_S__parameterized2_322       |    14|
+|81    |          \SBOX[4].u_sbox                   |des_S__parameterized3_323       |    14|
+|82    |          \SBOX[5].u_sbox                   |des_S__parameterized4_324       |    14|
+|83    |          \SBOX[6].u_sbox                   |des_S__parameterized5_325       |    14|
+|84    |          \SBOX[7].u_sbox                   |des_S__parameterized6_326       |    14|
+|85    |      \DES_ROUND_PIPE[2].round_i            |des_round_222                   |   192|
+|86    |        u_des_feistel                       |des_feistel_309                 |   160|
+|87    |          \SBOX[0].u_sbox                   |des_S_310                       |    14|
+|88    |          \SBOX[1].u_sbox                   |des_S__parameterized0_311       |    14|
+|89    |          \SBOX[2].u_sbox                   |des_S__parameterized1_312       |    14|
+|90    |          \SBOX[3].u_sbox                   |des_S__parameterized2_313       |    14|
+|91    |          \SBOX[4].u_sbox                   |des_S__parameterized3_314       |    14|
+|92    |          \SBOX[5].u_sbox                   |des_S__parameterized4_315       |    14|
+|93    |          \SBOX[6].u_sbox                   |des_S__parameterized5_316       |    14|
+|94    |          \SBOX[7].u_sbox                   |des_S__parameterized6_317       |    14|
+|95    |      \DES_ROUND_PIPE[3].round_i            |des_round_223                   |   192|
+|96    |        u_des_feistel                       |des_feistel_300                 |   160|
+|97    |          \SBOX[0].u_sbox                   |des_S_301                       |    14|
+|98    |          \SBOX[1].u_sbox                   |des_S__parameterized0_302       |    14|
+|99    |          \SBOX[2].u_sbox                   |des_S__parameterized1_303       |    14|
+|100   |          \SBOX[3].u_sbox                   |des_S__parameterized2_304       |    14|
+|101   |          \SBOX[4].u_sbox                   |des_S__parameterized3_305       |    14|
+|102   |          \SBOX[5].u_sbox                   |des_S__parameterized4_306       |    14|
+|103   |          \SBOX[6].u_sbox                   |des_S__parameterized5_307       |    14|
+|104   |          \SBOX[7].u_sbox                   |des_S__parameterized6_308       |    14|
+|105   |      \DES_ROUND_PIPE[4].round_i            |des_round_224                   |   192|
+|106   |        u_des_feistel                       |des_feistel_291                 |   160|
+|107   |          \SBOX[0].u_sbox                   |des_S_292                       |    14|
+|108   |          \SBOX[1].u_sbox                   |des_S__parameterized0_293       |    14|
+|109   |          \SBOX[2].u_sbox                   |des_S__parameterized1_294       |    14|
+|110   |          \SBOX[3].u_sbox                   |des_S__parameterized2_295       |    14|
+|111   |          \SBOX[4].u_sbox                   |des_S__parameterized3_296       |    14|
+|112   |          \SBOX[5].u_sbox                   |des_S__parameterized4_297       |    14|
+|113   |          \SBOX[6].u_sbox                   |des_S__parameterized5_298       |    14|
+|114   |          \SBOX[7].u_sbox                   |des_S__parameterized6_299       |    14|
+|115   |      \DES_ROUND_PIPE[5].round_i            |des_round_225                   |   192|
+|116   |        u_des_feistel                       |des_feistel_282                 |   160|
+|117   |          \SBOX[0].u_sbox                   |des_S_283                       |    14|
+|118   |          \SBOX[1].u_sbox                   |des_S__parameterized0_284       |    14|
+|119   |          \SBOX[2].u_sbox                   |des_S__parameterized1_285       |    14|
+|120   |          \SBOX[3].u_sbox                   |des_S__parameterized2_286       |    14|
+|121   |          \SBOX[4].u_sbox                   |des_S__parameterized3_287       |    14|
+|122   |          \SBOX[5].u_sbox                   |des_S__parameterized4_288       |    14|
+|123   |          \SBOX[6].u_sbox                   |des_S__parameterized5_289       |    14|
+|124   |          \SBOX[7].u_sbox                   |des_S__parameterized6_290       |    14|
+|125   |      \DES_ROUND_PIPE[6].round_i            |des_round_226                   |   192|
+|126   |        u_des_feistel                       |des_feistel_273                 |   160|
+|127   |          \SBOX[0].u_sbox                   |des_S_274                       |    14|
+|128   |          \SBOX[1].u_sbox                   |des_S__parameterized0_275       |    14|
+|129   |          \SBOX[2].u_sbox                   |des_S__parameterized1_276       |    14|
+|130   |          \SBOX[3].u_sbox                   |des_S__parameterized2_277       |    14|
+|131   |          \SBOX[4].u_sbox                   |des_S__parameterized3_278       |    14|
+|132   |          \SBOX[5].u_sbox                   |des_S__parameterized4_279       |    14|
+|133   |          \SBOX[6].u_sbox                   |des_S__parameterized5_280       |    14|
+|134   |          \SBOX[7].u_sbox                   |des_S__parameterized6_281       |    14|
+|135   |      \DES_ROUND_PIPE[7].round_i            |des_round_227                   |   192|
+|136   |        u_des_feistel                       |des_feistel_264                 |   160|
+|137   |          \SBOX[0].u_sbox                   |des_S_265                       |    14|
+|138   |          \SBOX[1].u_sbox                   |des_S__parameterized0_266       |    14|
+|139   |          \SBOX[2].u_sbox                   |des_S__parameterized1_267       |    14|
+|140   |          \SBOX[3].u_sbox                   |des_S__parameterized2_268       |    14|
+|141   |          \SBOX[4].u_sbox                   |des_S__parameterized3_269       |    14|
+|142   |          \SBOX[5].u_sbox                   |des_S__parameterized4_270       |    14|
+|143   |          \SBOX[6].u_sbox                   |des_S__parameterized5_271       |    14|
+|144   |          \SBOX[7].u_sbox                   |des_S__parameterized6_272       |    14|
+|145   |      \DES_ROUND_PIPE[8].round_i            |des_round_228                   |   192|
+|146   |        u_des_feistel                       |des_feistel_255                 |   160|
+|147   |          \SBOX[0].u_sbox                   |des_S_256                       |    14|
+|148   |          \SBOX[1].u_sbox                   |des_S__parameterized0_257       |    14|
+|149   |          \SBOX[2].u_sbox                   |des_S__parameterized1_258       |    14|
+|150   |          \SBOX[3].u_sbox                   |des_S__parameterized2_259       |    14|
+|151   |          \SBOX[4].u_sbox                   |des_S__parameterized3_260       |    14|
+|152   |          \SBOX[5].u_sbox                   |des_S__parameterized4_261       |    14|
+|153   |          \SBOX[6].u_sbox                   |des_S__parameterized5_262       |    14|
+|154   |          \SBOX[7].u_sbox                   |des_S__parameterized6_263       |    14|
+|155   |      \DES_ROUND_PIPE[9].round_i            |des_round_229                   |   192|
+|156   |        u_des_feistel                       |des_feistel_246                 |   160|
+|157   |          \SBOX[0].u_sbox                   |des_S_247                       |    14|
+|158   |          \SBOX[1].u_sbox                   |des_S__parameterized0_248       |    14|
+|159   |          \SBOX[2].u_sbox                   |des_S__parameterized1_249       |    14|
+|160   |          \SBOX[3].u_sbox                   |des_S__parameterized2_250       |    14|
+|161   |          \SBOX[4].u_sbox                   |des_S__parameterized3_251       |    14|
+|162   |          \SBOX[5].u_sbox                   |des_S__parameterized4_252       |    14|
+|163   |          \SBOX[6].u_sbox                   |des_S__parameterized5_253       |    14|
+|164   |          \SBOX[7].u_sbox                   |des_S__parameterized6_254       |    14|
+|165   |      \genblk1[10].u_delay1                 |delay_line__parameterized8_230  |    96|
+|166   |      \genblk1[11].u_delay1                 |delay_line__parameterized9_231  |    96|
+|167   |      \genblk1[12].u_delay1                 |delay_line__parameterized10_232 |    96|
+|168   |      \genblk1[13].u_delay1                 |delay_line__parameterized11_233 |    84|
+|169   |      \genblk1[14].u_delay1                 |delay_line__parameterized12_234 |   104|
+|170   |      \genblk1[15].u_delay1                 |delay_line__parameterized13_235 |   100|
+|171   |      \genblk1[1].u_delay1                  |delay_line_236                  |    88|
+|172   |      \genblk1[2].u_delay1                  |delay_line__parameterized0_237  |    98|
+|173   |      \genblk1[3].u_delay1                  |delay_line__parameterized1_238  |    92|
+|174   |      \genblk1[4].u_delay1                  |delay_line__parameterized2_239  |   100|
+|175   |      \genblk1[5].u_delay1                  |delay_line__parameterized3_240  |    92|
+|176   |      \genblk1[6].u_delay1                  |delay_line__parameterized4_241  |   102|
+|177   |      \genblk1[7].u_delay1                  |delay_line__parameterized5_242  |    96|
+|178   |      \genblk1[8].u_delay1                  |delay_line__parameterized6_243  |    94|
+|179   |      \genblk1[9].u_delay1                  |delay_line__parameterized7_244  |   102|
+|180   |      u_delay1                              |delay_line__parameterized14_245 |     4|
+|181   |    key_lib                                 |rom_213                         |    10|
+|182   |    u_decision                              |decision                        |   129|
+|183   |  u_tx                                      |tx                              |  6091|
+|184   |    bit_lib                                 |rom                             |    10|
+|185   |    encrypt                                 |des                             |  5757|
+|186   |      \DES_ROUND_PIPE[0].round_i            |des_round                       |   192|
+|187   |        u_des_feistel                       |des_feistel_203                 |   160|
+|188   |          \SBOX[0].u_sbox                   |des_S_204                       |    14|
+|189   |          \SBOX[1].u_sbox                   |des_S__parameterized0_205       |    14|
+|190   |          \SBOX[2].u_sbox                   |des_S__parameterized1_206       |    14|
+|191   |          \SBOX[3].u_sbox                   |des_S__parameterized2_207       |    14|
+|192   |          \SBOX[4].u_sbox                   |des_S__parameterized3_208       |    14|
+|193   |          \SBOX[5].u_sbox                   |des_S__parameterized4_209       |    14|
+|194   |          \SBOX[6].u_sbox                   |des_S__parameterized5_210       |    14|
+|195   |          \SBOX[7].u_sbox                   |des_S__parameterized6_211       |    14|
+|196   |      \DES_ROUND_PIPE[10].round_i           |des_round_62                    |   192|
+|197   |        u_des_feistel                       |des_feistel_194                 |   160|
+|198   |          \SBOX[0].u_sbox                   |des_S_195                       |    14|
+|199   |          \SBOX[1].u_sbox                   |des_S__parameterized0_196       |    14|
+|200   |          \SBOX[2].u_sbox                   |des_S__parameterized1_197       |    14|
+|201   |          \SBOX[3].u_sbox                   |des_S__parameterized2_198       |    14|
+|202   |          \SBOX[4].u_sbox                   |des_S__parameterized3_199       |    14|
+|203   |          \SBOX[5].u_sbox                   |des_S__parameterized4_200       |    14|
+|204   |          \SBOX[6].u_sbox                   |des_S__parameterized5_201       |    14|
+|205   |          \SBOX[7].u_sbox                   |des_S__parameterized6_202       |    14|
+|206   |      \DES_ROUND_PIPE[11].round_i           |des_round_63                    |   192|
+|207   |        u_des_feistel                       |des_feistel_185                 |   160|
+|208   |          \SBOX[0].u_sbox                   |des_S_186                       |    14|
+|209   |          \SBOX[1].u_sbox                   |des_S__parameterized0_187       |    14|
+|210   |          \SBOX[2].u_sbox                   |des_S__parameterized1_188       |    14|
+|211   |          \SBOX[3].u_sbox                   |des_S__parameterized2_189       |    14|
+|212   |          \SBOX[4].u_sbox                   |des_S__parameterized3_190       |    14|
+|213   |          \SBOX[5].u_sbox                   |des_S__parameterized4_191       |    14|
+|214   |          \SBOX[6].u_sbox                   |des_S__parameterized5_192       |    14|
+|215   |          \SBOX[7].u_sbox                   |des_S__parameterized6_193       |    14|
+|216   |      \DES_ROUND_PIPE[12].round_i           |des_round_64                    |   192|
+|217   |        u_des_feistel                       |des_feistel_176                 |   160|
+|218   |          \SBOX[0].u_sbox                   |des_S_177                       |    14|
+|219   |          \SBOX[1].u_sbox                   |des_S__parameterized0_178       |    14|
+|220   |          \SBOX[2].u_sbox                   |des_S__parameterized1_179       |    14|
+|221   |          \SBOX[3].u_sbox                   |des_S__parameterized2_180       |    14|
+|222   |          \SBOX[4].u_sbox                   |des_S__parameterized3_181       |    14|
+|223   |          \SBOX[5].u_sbox                   |des_S__parameterized4_182       |    14|
+|224   |          \SBOX[6].u_sbox                   |des_S__parameterized5_183       |    14|
+|225   |          \SBOX[7].u_sbox                   |des_S__parameterized6_184       |    14|
+|226   |      \DES_ROUND_PIPE[13].round_i           |des_round_65                    |   192|
+|227   |        u_des_feistel                       |des_feistel_167                 |   160|
+|228   |          \SBOX[0].u_sbox                   |des_S_168                       |    14|
+|229   |          \SBOX[1].u_sbox                   |des_S__parameterized0_169       |    14|
+|230   |          \SBOX[2].u_sbox                   |des_S__parameterized1_170       |    14|
+|231   |          \SBOX[3].u_sbox                   |des_S__parameterized2_171       |    14|
+|232   |          \SBOX[4].u_sbox                   |des_S__parameterized3_172       |    14|
+|233   |          \SBOX[5].u_sbox                   |des_S__parameterized4_173       |    14|
+|234   |          \SBOX[6].u_sbox                   |des_S__parameterized5_174       |    14|
+|235   |          \SBOX[7].u_sbox                   |des_S__parameterized6_175       |    14|
+|236   |      \DES_ROUND_PIPE[14].round_i           |des_round_66                    |   192|
+|237   |        u_des_feistel                       |des_feistel_158                 |   160|
+|238   |          \SBOX[0].u_sbox                   |des_S_159                       |    14|
+|239   |          \SBOX[1].u_sbox                   |des_S__parameterized0_160       |    14|
+|240   |          \SBOX[2].u_sbox                   |des_S__parameterized1_161       |    14|
+|241   |          \SBOX[3].u_sbox                   |des_S__parameterized2_162       |    14|
+|242   |          \SBOX[4].u_sbox                   |des_S__parameterized3_163       |    14|
+|243   |          \SBOX[5].u_sbox                   |des_S__parameterized4_164       |    14|
+|244   |          \SBOX[6].u_sbox                   |des_S__parameterized5_165       |    14|
+|245   |          \SBOX[7].u_sbox                   |des_S__parameterized6_166       |    14|
+|246   |      \DES_ROUND_PIPE[15].round_i           |des_round_67                    |   192|
+|247   |        u_des_feistel                       |des_feistel_149                 |   160|
+|248   |          \SBOX[0].u_sbox                   |des_S_150                       |    14|
+|249   |          \SBOX[1].u_sbox                   |des_S__parameterized0_151       |    14|
+|250   |          \SBOX[2].u_sbox                   |des_S__parameterized1_152       |    14|
+|251   |          \SBOX[3].u_sbox                   |des_S__parameterized2_153       |    14|
+|252   |          \SBOX[4].u_sbox                   |des_S__parameterized3_154       |    14|
+|253   |          \SBOX[5].u_sbox                   |des_S__parameterized4_155       |    14|
+|254   |          \SBOX[6].u_sbox                   |des_S__parameterized5_156       |    14|
+|255   |          \SBOX[7].u_sbox                   |des_S__parameterized6_157       |    14|
+|256   |      \DES_ROUND_PIPE[1].round_i            |des_round_68                    |   192|
+|257   |        u_des_feistel                       |des_feistel_140                 |   160|
+|258   |          \SBOX[0].u_sbox                   |des_S_141                       |    14|
+|259   |          \SBOX[1].u_sbox                   |des_S__parameterized0_142       |    14|
+|260   |          \SBOX[2].u_sbox                   |des_S__parameterized1_143       |    14|
+|261   |          \SBOX[3].u_sbox                   |des_S__parameterized2_144       |    14|
+|262   |          \SBOX[4].u_sbox                   |des_S__parameterized3_145       |    14|
+|263   |          \SBOX[5].u_sbox                   |des_S__parameterized4_146       |    14|
+|264   |          \SBOX[6].u_sbox                   |des_S__parameterized5_147       |    14|
+|265   |          \SBOX[7].u_sbox                   |des_S__parameterized6_148       |    14|
+|266   |      \DES_ROUND_PIPE[2].round_i            |des_round_69                    |   192|
+|267   |        u_des_feistel                       |des_feistel_131                 |   160|
+|268   |          \SBOX[0].u_sbox                   |des_S_132                       |    14|
+|269   |          \SBOX[1].u_sbox                   |des_S__parameterized0_133       |    14|
+|270   |          \SBOX[2].u_sbox                   |des_S__parameterized1_134       |    14|
+|271   |          \SBOX[3].u_sbox                   |des_S__parameterized2_135       |    14|
+|272   |          \SBOX[4].u_sbox                   |des_S__parameterized3_136       |    14|
+|273   |          \SBOX[5].u_sbox                   |des_S__parameterized4_137       |    14|
+|274   |          \SBOX[6].u_sbox                   |des_S__parameterized5_138       |    14|
+|275   |          \SBOX[7].u_sbox                   |des_S__parameterized6_139       |    14|
+|276   |      \DES_ROUND_PIPE[3].round_i            |des_round_70                    |   192|
+|277   |        u_des_feistel                       |des_feistel_122                 |   160|
+|278   |          \SBOX[0].u_sbox                   |des_S_123                       |    14|
+|279   |          \SBOX[1].u_sbox                   |des_S__parameterized0_124       |    14|
+|280   |          \SBOX[2].u_sbox                   |des_S__parameterized1_125       |    14|
+|281   |          \SBOX[3].u_sbox                   |des_S__parameterized2_126       |    14|
+|282   |          \SBOX[4].u_sbox                   |des_S__parameterized3_127       |    14|
+|283   |          \SBOX[5].u_sbox                   |des_S__parameterized4_128       |    14|
+|284   |          \SBOX[6].u_sbox                   |des_S__parameterized5_129       |    14|
+|285   |          \SBOX[7].u_sbox                   |des_S__parameterized6_130       |    14|
+|286   |      \DES_ROUND_PIPE[4].round_i            |des_round_71                    |   192|
+|287   |        u_des_feistel                       |des_feistel_113                 |   160|
+|288   |          \SBOX[0].u_sbox                   |des_S_114                       |    14|
+|289   |          \SBOX[1].u_sbox                   |des_S__parameterized0_115       |    14|
+|290   |          \SBOX[2].u_sbox                   |des_S__parameterized1_116       |    14|
+|291   |          \SBOX[3].u_sbox                   |des_S__parameterized2_117       |    14|
+|292   |          \SBOX[4].u_sbox                   |des_S__parameterized3_118       |    14|
+|293   |          \SBOX[5].u_sbox                   |des_S__parameterized4_119       |    14|
+|294   |          \SBOX[6].u_sbox                   |des_S__parameterized5_120       |    14|
+|295   |          \SBOX[7].u_sbox                   |des_S__parameterized6_121       |    14|
+|296   |      \DES_ROUND_PIPE[5].round_i            |des_round_72                    |   192|
+|297   |        u_des_feistel                       |des_feistel_104                 |   160|
+|298   |          \SBOX[0].u_sbox                   |des_S_105                       |    14|
+|299   |          \SBOX[1].u_sbox                   |des_S__parameterized0_106       |    14|
+|300   |          \SBOX[2].u_sbox                   |des_S__parameterized1_107       |    14|
+|301   |          \SBOX[3].u_sbox                   |des_S__parameterized2_108       |    14|
+|302   |          \SBOX[4].u_sbox                   |des_S__parameterized3_109       |    14|
+|303   |          \SBOX[5].u_sbox                   |des_S__parameterized4_110       |    14|
+|304   |          \SBOX[6].u_sbox                   |des_S__parameterized5_111       |    14|
+|305   |          \SBOX[7].u_sbox                   |des_S__parameterized6_112       |    14|
+|306   |      \DES_ROUND_PIPE[6].round_i            |des_round_73                    |   192|
+|307   |        u_des_feistel                       |des_feistel_95                  |   160|
+|308   |          \SBOX[0].u_sbox                   |des_S_96                        |    14|
+|309   |          \SBOX[1].u_sbox                   |des_S__parameterized0_97        |    14|
+|310   |          \SBOX[2].u_sbox                   |des_S__parameterized1_98        |    14|
+|311   |          \SBOX[3].u_sbox                   |des_S__parameterized2_99        |    14|
+|312   |          \SBOX[4].u_sbox                   |des_S__parameterized3_100       |    14|
+|313   |          \SBOX[5].u_sbox                   |des_S__parameterized4_101       |    14|
+|314   |          \SBOX[6].u_sbox                   |des_S__parameterized5_102       |    14|
+|315   |          \SBOX[7].u_sbox                   |des_S__parameterized6_103       |    14|
+|316   |      \DES_ROUND_PIPE[7].round_i            |des_round_74                    |   192|
+|317   |        u_des_feistel                       |des_feistel_86                  |   160|
+|318   |          \SBOX[0].u_sbox                   |des_S_87                        |    14|
+|319   |          \SBOX[1].u_sbox                   |des_S__parameterized0_88        |    14|
+|320   |          \SBOX[2].u_sbox                   |des_S__parameterized1_89        |    14|
+|321   |          \SBOX[3].u_sbox                   |des_S__parameterized2_90        |    14|
+|322   |          \SBOX[4].u_sbox                   |des_S__parameterized3_91        |    14|
+|323   |          \SBOX[5].u_sbox                   |des_S__parameterized4_92        |    14|
+|324   |          \SBOX[6].u_sbox                   |des_S__parameterized5_93        |    14|
+|325   |          \SBOX[7].u_sbox                   |des_S__parameterized6_94        |    14|
+|326   |      \DES_ROUND_PIPE[8].round_i            |des_round_75                    |   192|
+|327   |        u_des_feistel                       |des_feistel_77                  |   160|
+|328   |          \SBOX[0].u_sbox                   |des_S_78                        |    14|
+|329   |          \SBOX[1].u_sbox                   |des_S__parameterized0_79        |    14|
+|330   |          \SBOX[2].u_sbox                   |des_S__parameterized1_80        |    14|
+|331   |          \SBOX[3].u_sbox                   |des_S__parameterized2_81        |    14|
+|332   |          \SBOX[4].u_sbox                   |des_S__parameterized3_82        |    14|
+|333   |          \SBOX[5].u_sbox                   |des_S__parameterized4_83        |    14|
+|334   |          \SBOX[6].u_sbox                   |des_S__parameterized5_84        |    14|
+|335   |          \SBOX[7].u_sbox                   |des_S__parameterized6_85        |    14|
+|336   |      \DES_ROUND_PIPE[9].round_i            |des_round_76                    |   192|
+|337   |        u_des_feistel                       |des_feistel                     |   160|
+|338   |          \SBOX[0].u_sbox                   |des_S                           |    14|
+|339   |          \SBOX[1].u_sbox                   |des_S__parameterized0           |    14|
+|340   |          \SBOX[2].u_sbox                   |des_S__parameterized1           |    14|
+|341   |          \SBOX[3].u_sbox                   |des_S__parameterized2           |    14|
+|342   |          \SBOX[4].u_sbox                   |des_S__parameterized3           |    14|
+|343   |          \SBOX[5].u_sbox                   |des_S__parameterized4           |    14|
+|344   |          \SBOX[6].u_sbox                   |des_S__parameterized5           |    14|
+|345   |          \SBOX[7].u_sbox                   |des_S__parameterized6           |    14|
+|346   |      \genblk1[10].u_delay1                 |delay_line__parameterized8      |    96|
+|347   |      \genblk1[11].u_delay1                 |delay_line__parameterized9      |    96|
+|348   |      \genblk1[12].u_delay1                 |delay_line__parameterized10     |    96|
+|349   |      \genblk1[13].u_delay1                 |delay_line__parameterized11     |    84|
+|350   |      \genblk1[14].u_delay1                 |delay_line__parameterized12     |    98|
+|351   |      \genblk1[15].u_delay1                 |delay_line__parameterized13     |   106|
+|352   |      \genblk1[1].u_delay1                  |delay_line                      |    92|
+|353   |      \genblk1[2].u_delay1                  |delay_line__parameterized0      |    98|
+|354   |      \genblk1[3].u_delay1                  |delay_line__parameterized1      |    94|
+|355   |      \genblk1[4].u_delay1                  |delay_line__parameterized2      |    98|
+|356   |      \genblk1[5].u_delay1                  |delay_line__parameterized3      |    94|
+|357   |      \genblk1[6].u_delay1                  |delay_line__parameterized4      |    96|
+|358   |      \genblk1[7].u_delay1                  |delay_line__parameterized5      |    90|
+|359   |      \genblk1[8].u_delay1                  |delay_line__parameterized6      |   102|
+|360   |      \genblk1[9].u_delay1                  |delay_line__parameterized7      |   100|
+|361   |      u_delay1                              |delay_line__parameterized14     |    37|
+|362   |    pulse_shaping                           |rc_filter                       |   260|
+|363   |      \u_interpolation[0].u_interpolation   |interpolation                   |     4|
+|364   |        sample1                             |interpolation_unit_1_61         |     4|
+|365   |      \u_interpolation[10].u_interpolation  |interpolation_0                 |     4|
+|366   |        sample1                             |interpolation_unit_1_60         |     4|
+|367   |      \u_interpolation[11].u_interpolation  |interpolation_1                 |     4|
+|368   |        sample1                             |interpolation_unit_1_59         |     4|
+|369   |      \u_interpolation[12].u_interpolation  |interpolation_2                 |     4|
+|370   |        sample1                             |interpolation_unit_1_58         |     4|
+|371   |      \u_interpolation[13].u_interpolation  |interpolation_3                 |     4|
+|372   |        sample1                             |interpolation_unit_1_57         |     4|
+|373   |      \u_interpolation[14].u_interpolation  |interpolation_4                 |     4|
+|374   |        sample1                             |interpolation_unit_1_56         |     4|
+|375   |      \u_interpolation[15].u_interpolation  |interpolation_5                 |     4|
+|376   |        sample1                             |interpolation_unit_1_55         |     4|
+|377   |      \u_interpolation[16].u_interpolation  |interpolation_6                 |     4|
+|378   |        sample1                             |interpolation_unit_1_54         |     4|
+|379   |      \u_interpolation[17].u_interpolation  |interpolation_7                 |     4|
+|380   |        sample1                             |interpolation_unit_1_53         |     4|
+|381   |      \u_interpolation[18].u_interpolation  |interpolation_8                 |     4|
+|382   |        sample1                             |interpolation_unit_1_52         |     4|
+|383   |      \u_interpolation[19].u_interpolation  |interpolation_9                 |     4|
+|384   |        sample1                             |interpolation_unit_1_51         |     4|
+|385   |      \u_interpolation[1].u_interpolation   |interpolation_10                |     4|
+|386   |        sample1                             |interpolation_unit_1_50         |     4|
+|387   |      \u_interpolation[20].u_interpolation  |interpolation_11                |     4|
+|388   |        sample1                             |interpolation_unit_1_49         |     4|
+|389   |      \u_interpolation[21].u_interpolation  |interpolation_12                |     4|
+|390   |        sample1                             |interpolation_unit_1_48         |     4|
+|391   |      \u_interpolation[22].u_interpolation  |interpolation_13                |     4|
+|392   |        sample1                             |interpolation_unit_1_47         |     4|
+|393   |      \u_interpolation[23].u_interpolation  |interpolation_14                |     4|
+|394   |        sample1                             |interpolation_unit_1_46         |     4|
+|395   |      \u_interpolation[24].u_interpolation  |interpolation_15                |     4|
+|396   |        sample1                             |interpolation_unit_1_45         |     4|
+|397   |      \u_interpolation[25].u_interpolation  |interpolation_16                |     4|
+|398   |        sample1                             |interpolation_unit_1_44         |     4|
+|399   |      \u_interpolation[26].u_interpolation  |interpolation_17                |     4|
+|400   |        sample1                             |interpolation_unit_1_43         |     4|
+|401   |      \u_interpolation[27].u_interpolation  |interpolation_18                |     4|
+|402   |        sample1                             |interpolation_unit_1_42         |     4|
+|403   |      \u_interpolation[28].u_interpolation  |interpolation_19                |     4|
+|404   |        sample1                             |interpolation_unit_1_41         |     4|
+|405   |      \u_interpolation[29].u_interpolation  |interpolation_20                |     4|
+|406   |        sample1                             |interpolation_unit_1_40         |     4|
+|407   |      \u_interpolation[2].u_interpolation   |interpolation_21                |     4|
+|408   |        sample1                             |interpolation_unit_1_39         |     4|
+|409   |      \u_interpolation[30].u_interpolation  |interpolation_22                |     4|
+|410   |        sample1                             |interpolation_unit_1_38         |     4|
+|411   |      \u_interpolation[31].u_interpolation  |interpolation_23                |     3|
+|412   |        sample1                             |interpolation_unit_1_37         |     3|
+|413   |      \u_interpolation[3].u_interpolation   |interpolation_24                |     4|
+|414   |        sample1                             |interpolation_unit_1_36         |     4|
+|415   |      \u_interpolation[4].u_interpolation   |interpolation_25                |     4|
+|416   |        sample1                             |interpolation_unit_1_35         |     4|
+|417   |      \u_interpolation[5].u_interpolation   |interpolation_26                |     4|
+|418   |        sample1                             |interpolation_unit_1_34         |     4|
+|419   |      \u_interpolation[6].u_interpolation   |interpolation_27                |     4|
+|420   |        sample1                             |interpolation_unit_1_33         |     4|
+|421   |      \u_interpolation[7].u_interpolation   |interpolation_28                |     4|
+|422   |        sample1                             |interpolation_unit_1_32         |     4|
+|423   |      \u_interpolation[8].u_interpolation   |interpolation_29                |     4|
+|424   |        sample1                             |interpolation_unit_1_31         |     4|
+|425   |      \u_interpolation[9].u_interpolation   |interpolation_30                |     4|
+|426   |        sample1                             |interpolation_unit_1            |     4|
++------+--------------------------------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Synthesis Optimization Complete : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 2114.082 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[0]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[10]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[11]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[12]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[13]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[14]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[15]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[16]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[17]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[18]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[19]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[1]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[20]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[21]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[22]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[23]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[24]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[25]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[26]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[27]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[28]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[29]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[2]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[30]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[31]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[32]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[33]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[34]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[35]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[36]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[37]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[38]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[39]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[3]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[40]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[41]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[42]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[43]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[44]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[45]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[46]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[47]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[48]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[49]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[4]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[50]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[51]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[52]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[53]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[54]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[55]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[56]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[57]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[58]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[59]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[5]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[60]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[61]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[6]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[7]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[8]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[9]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Calibrated.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2114.082 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 110 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  FDCP => FDCP (FDCE, FDPE, LDCE, LUT3, VCC): 62 instances
+  LUT6CY => LUT6CY (LUTCY1, LUTCY2): 47 instances
+
+Synth Design complete, checksum: 69f4fee0
+INFO: [Common 17-83] Releasing license: Synthesis
+110 Infos, 0 Warnings, 62 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:21 ; elapsed = 00:02:28 . Memory (MB): peak = 2114.082 ; gain = 890.824
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Aug  3 13:45:32 2026...
