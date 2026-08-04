@@ -39,7 +39,7 @@ module rx(
         .bit_out(bit) 
     );
 
-    // 64*64ÃÜÔ¿¿â
+    // 32*64ÃÜÔ¿¿â
     wire [63:0] key;
     wire key_valid;
     rom key_lib(

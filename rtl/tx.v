@@ -26,7 +26,7 @@ module tx(
     output [767:0] sample
     );
     
-    // 64*64原始比特库
+    // 32*64原始比特库
     wire [63:0] raw_bit;
     wire raw_bit_valid;
     rom bit_lib(
@@ -38,7 +38,7 @@ module tx(
         
     );
     
-    // 64*64密钥库
+    // 32*64密钥库
     wire [63:0] key;
     wire key_valid;
     rom key_lib(

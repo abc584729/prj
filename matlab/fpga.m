@@ -53,3 +53,4 @@ end
 
 % 误码统计
 bit_error = sum(x_hat~=x(1:end-1));
+disp(bit_error);
