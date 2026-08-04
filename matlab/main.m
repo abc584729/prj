@@ -1,13 +1,13 @@
 clc, clear, close all;
 
 % 参数配置
-fs = 7.68e9;    % 采样频率:7.68GHZ
+fs = 15.36e9;   % 采样频率:15.36GHZ
 sps = 4;        % 过采样倍数
 Rs = fs/sps;    % 符号速率
 span = 2;       % 滤波器跨度
 beta = 0.5;     % 滚降系数ff 
 
-% pam4调制
+% pam4调制s
 DataL = 1e4;
 a = 2*randi([0,3], 1, DataL)-3;
 

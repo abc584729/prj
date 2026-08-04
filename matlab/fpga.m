@@ -1,7 +1,7 @@
 clc, clear, close all;
 
 % configration
-fs = 7.68e9;    % 采样频率:7.68GHZ
+fs = 15.36e9;   % 采样频率:15.36GHZ
 sps = 4;        % 过采样倍数:4
 Rs = fs/sps;    % 符号速率
 span = 2;       % 滤波器跨度
