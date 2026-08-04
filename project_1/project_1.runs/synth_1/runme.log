@@ -16,147 +16,147 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcvc1802'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvc1802'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 19040
+INFO: [Synth 8-7075] Helper process launched with PID 20448
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1223.258 ; gain = 0.000
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1223.277 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v:23]
-INFO: [Synth 8-6157] synthesizing module 'tx' [C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v:23]
-INFO: [Synth 8-6157] synthesizing module 'rom' [C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'rom' (1#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v:22]
-INFO: [Synth 8-6157] synthesizing module 'delay_line' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'tx' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/tx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rom' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rom.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rom' (1#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized0' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized0' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized0' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized0' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized1' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 6 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized1' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized1' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized2' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 8 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized2' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized3' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized2' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized3' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 10 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized3' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized4' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized3' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized4' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 12 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized4' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized5' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized4' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized5' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 14 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized5' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized6' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized5' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized6' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized6' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized7' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized6' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized7' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 18 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized7' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized8' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized7' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized8' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 20 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized8' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized9' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized8' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized9' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 22 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized9' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized10' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized9' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized10' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 24 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized10' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized11' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized10' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized11' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 26 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized11' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized12' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized11' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized12' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 28 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized12' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized13' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized12' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized13' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 48 - type: integer 
 	Parameter DEPTH bound to: 30 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized13' (2#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_round' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v:1]
-INFO: [Synth 8-6157] synthesizing module 'des_feistel' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v:22]
-INFO: [Synth 8-6157] synthesizing module 'des_S' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized13' (2#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_round' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_feistel' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_S' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized0' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized0' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized0' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized0' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized1' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized1' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized1' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized2' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized2' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized3' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized2' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized3' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized3' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized4' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized3' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized4' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 5 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized4' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized5' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized4' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized5' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 6 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized5' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized6' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized5' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_S__parameterized6' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
 	Parameter SBOX_ID bound to: 7 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized6' (3#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_E' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'des_E' (4#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_P' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'des_P' (5#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'des_feistel' (6#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'des_round' (7#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v:1]
-INFO: [Synth 8-6157] synthesizing module 'des_key_schedule' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v:22]
-INFO: [Synth 8-6157] synthesizing module 'des_PC1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'des_PC1' (8#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v:22]
-INFO: [Synth 8-6157] synthesizing module 'des_PC2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'des_PC2' (9#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'des_key_schedule' (10#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v:22]
-INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized14' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_S__parameterized6' (3#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_E' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_E.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_E' (4#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_E.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_P' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_P' (5#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_P.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_feistel' (6#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_feistel.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_round' (7#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_round.v:1]
+INFO: [Synth 8-6157] synthesizing module 'des_key_schedule' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC1' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC1' (8#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_PC1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_PC2' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_PC2' (9#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_PC2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_key_schedule' (10#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_key_schedule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'delay_line__parameterized14' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
 	Parameter WIDTH bound to: 1 - type: integer 
 	Parameter DEPTH bound to: 34 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized14' (10#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v:23]
-INFO: [Synth 8-6157] synthesizing module 'des_IP' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'des_IP' (11#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v:22]
-INFO: [Synth 8-6157] synthesizing module 'des_IP1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'des_IP1' (12#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'des' (13#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v:22]
-INFO: [Synth 8-6157] synthesizing module 'rc_filter' [C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v:23]
-INFO: [Synth 8-6157] synthesizing module 'interpolation' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v:23]
-INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_1' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_1' (14#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:23]
-INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_2' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:52]
-INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_2' (15#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:52]
-INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_3' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:81]
-INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_3' (16#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:81]
-INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_4' [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:110]
-INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_4' (17#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v:110]
-INFO: [Synth 8-6155] done synthesizing module 'interpolation' (18#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'rc_filter' (19#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'tx' (20#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v:23]
-INFO: [Synth 8-6157] synthesizing module 'rx' [C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v:23]
-INFO: [Synth 8-6157] synthesizing module 'decision' [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'decision' (21#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:23]
-INFO: [Synth 8-6157] synthesizing module 'ber' [C:/Users/33064/OneDrive/Desktop/prj/rtl/ber.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'ber' (22#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/ber.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'rx' (23#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'top' (24#1) [C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line__parameterized14' (10#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'des_IP' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP' (11#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_IP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'des_IP1' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des_IP1' (12#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_IP1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'des' (13#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des.v:22]
+INFO: [Synth 8-6157] synthesizing module 'rc_filter' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rc_filter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'interpolation' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation.v:23]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_1' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_1' (14#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_2' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_2' (15#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:52]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_3' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_3' (16#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:81]
+INFO: [Synth 8-6157] synthesizing module 'interpolation_unit_4' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation_unit_4' (17#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'interpolation' (18#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rc_filter' (19#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rc_filter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'tx' (20#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/tx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rx' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rx.v:23]
+INFO: [Synth 8-6157] synthesizing module 'decision' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'decision' (21#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ber' [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/ber.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ber' (22#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/ber.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rx' (23#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rx.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (24#1) [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/top.v:23]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1223.258 ; gain = 0.000
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1223.277 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1223.258 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1223.277 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -164,11 +164,11 @@ Start Loading Part and Timing Information
 Loading part: xcvc1802-viva1596-1LHP-i-L
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1223.258 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1223.277 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1223.258 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1223.277 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-223] decloning instance 'u_tx/bit_lib' (rom) to 'u_tx/key_lib'
 No constraint files found.
@@ -218,7 +218,7 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:01 ; elapsed = 00:02:07 . Memory (MB): peak = 2110.336 ; gain = 887.078
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:03 ; elapsed = 00:02:11 . Memory (MB): peak = 2118.355 ; gain = 895.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -243,13 +243,13 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:02 ; elapsed = 00:02:07 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Timing Optimization : Time (s): cpu = 00:02:04 ; elapsed = 00:02:12 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:07 ; elapsed = 00:02:12 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Technology Mapping : Time (s): cpu = 00:02:13 ; elapsed = 00:02:24 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -267,37 +267,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:12 ; elapsed = 00:02:17 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished IO Insertion : Time (s): cpu = 00:02:23 ; elapsed = 00:02:38 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:12 ; elapsed = 00:02:17 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:23 ; elapsed = 00:02:38 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:12 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:24 ; elapsed = 00:02:40 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:12 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:24 ; elapsed = 00:02:40 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:25 ; elapsed = 00:02:41 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:25 ; elapsed = 00:02:41 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -789,259 +789,259 @@ Report Instance Areas:
 |426   |        sample1                             |interpolation_unit_1            |     4|
 +------+--------------------------------------------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:25 ; elapsed = 00:02:41 . Memory (MB): peak = 2122.449 ; gain = 899.172
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
-Synthesis Optimization Complete : Time (s): cpu = 00:02:13 ; elapsed = 00:02:18 . Memory (MB): peak = 2114.082 ; gain = 890.824
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:25 ; elapsed = 00:02:41 . Memory (MB): peak = 2122.449 ; gain = 899.172
+Synthesis Optimization Complete : Time (s): cpu = 00:02:25 ; elapsed = 00:02:41 . Memory (MB): peak = 2122.449 ; gain = 899.172
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 2114.082 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.227 . Memory (MB): peak = 2122.449 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[0]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[0]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[10]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[10]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[11]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[11]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[12]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[12]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[13]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[13]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[14]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[14]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[15]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[15]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[16]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[16]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[17]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[17]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[18]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[18]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[19]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[19]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[1]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[1]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[20]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[20]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[21]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[21]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[22]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[22]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[23]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[23]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[24]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[24]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[25]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[25]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[26]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[26]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[27]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[27]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[28]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[28]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[29]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[29]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[2]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[2]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[30]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[30]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[31]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[31]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[32]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[32]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[33]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[33]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[34]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[34]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[35]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[35]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[36]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[36]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[37]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[37]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[38]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[38]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[39]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[39]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[3]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[3]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[40]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[40]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[41]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[41]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[42]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[42]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[43]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[43]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[44]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[44]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[45]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[45]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[46]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[46]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[47]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[47]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[48]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[48]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[49]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[49]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[4]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[4]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[50]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[50]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[51]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[51]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[52]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[52]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[53]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[53]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[54]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[54]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[55]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[55]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[56]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[56]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[57]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[57]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[58]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[58]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[59]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[59]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[5]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[5]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[60]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[60]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[61]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[61]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[6]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[6]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[7]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[7]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[8]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[8]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
-CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[9]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v:36]
+CRITICAL WARNING: [Netlist 29-358] Reg 'u_rx/u_decision/bit_reg[9]' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v:36]
 Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
 Convert at least one of them to synchronous signal, or get rid of at least one of those.
 Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
@@ -1052,7 +1052,7 @@ INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/dat
 INFO: [Constraints 18-5720] The default GCLK Deskew mode is Calibrated.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2114.082 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2122.449 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 110 instances were transformed.
   BUFG => BUFGCE: 1 instance 
@@ -1063,8 +1063,8 @@ Synth Design complete, checksum: 69f4fee0
 INFO: [Common 17-83] Releasing license: Synthesis
 110 Infos, 0 Warnings, 62 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:21 ; elapsed = 00:02:28 . Memory (MB): peak = 2114.082 ; gain = 890.824
+synth_design: Time (s): cpu = 00:02:38 ; elapsed = 00:02:57 . Memory (MB): peak = 2122.449 ; gain = 899.172
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'C:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.runs/synth_1/top.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Aug  3 13:45:32 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Aug  4 15:34:40 2026...

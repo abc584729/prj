@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.runs/synth_1/top.tcl"
+  variable script "C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/top.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,36 +77,36 @@ create_project -in_memory -part xcvc1802-viva1596-1LHP-i-L
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.cache/wt [current_project]
-set_property parent.project_path C:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.cache/wt [current_project]
+set_property parent.project_path C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/33064/OneDrive/Desktop/prj/project_1/project_1.cache/ip [current_project]
+set_property ip_output_repo c:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/ber.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/decision.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/delay_line.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_E.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_IP1.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_P.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC1.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_PC2.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_S.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_feistel.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_key_schedule.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/des/des_round.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/interpolation_unit.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/rc_filter.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/rom.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/rx.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/tx.v
-  C:/Users/33064/OneDrive/Desktop/prj/rtl/top.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/ber.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_E.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_IP.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_IP1.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_P.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_PC1.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_PC2.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_S.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_feistel.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_key_schedule.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_round.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rc_filter.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rom.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rx.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/tx.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/top.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
