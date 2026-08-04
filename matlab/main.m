@@ -7,7 +7,7 @@ Rs = fs/sps;    % 符号速率
 span = 2;       % 滤波器跨度
 beta = 0.5;     % 滚降系数
 
-% pam4调制s
+% pam4调制
 DataL = 1e4;
 a = 2*randi([0,3], 1, DataL)-3;
 
