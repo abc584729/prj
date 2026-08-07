@@ -2,15 +2,28 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Tue Aug  4 15:30:28 2026
-# Process ID: 17356
+# Start of session at: Fri Aug  7 15:58:49 2026
+# Process ID: 10388
 # Current directory: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15092 C:\Users\33064\OneDrive\Desktop\prj-main-2\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10184 C:\Users\33064\OneDrive\Desktop\prj-main-2\project_1\project_1.xpr
 # Log file: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/vivado.log
 # Journal file: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/conv.v w ]
+add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/conv.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v] -no_script -reset -force -quiet
+remove_files  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v
+close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v w ]
+add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v] -no_script -reset -force -quiet
+remove_files  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v
+close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v w ]
+add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v
 update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1 -jobs 4

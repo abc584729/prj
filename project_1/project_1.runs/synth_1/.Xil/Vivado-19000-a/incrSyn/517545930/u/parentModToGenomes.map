@@ -1,0 +1,4 @@
+top: rx__GC0, tx__GC0, des__GBM1, des__GBM0, 
+rx: rx__GC0, des__GBM0, des__GBM1, 
+tx: tx__GC0, des__GBM1, des__GBM0, 
+des: des__GBM1, des__GBM0, 

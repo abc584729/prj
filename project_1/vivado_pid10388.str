@@ -1,0 +1,2565 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 10388
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Aug 07 15:59:13 CST 2026
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	33064
+User home directory: C:/Users/33064
+User working directory: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/33064/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/33064/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/33064/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/vivado.log
+Vivado journal file: 	C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/.Xil/Vivado-10388-a
+
+Xilinx Environment Variables
+----------------------------
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_SDK: C:/Xilinx/Vitis/2021.1
+XILINX_VITIS: C:/Xilinx/Vitis/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,234 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1050 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\33064\OneDrive\Desktop\prj-main-2\project_1\project_1.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 60 MB. Current time: 8/7/26, 3:59:14 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 96 MB (+98214kb) [00:00:23]
+// [Engine Memory]: 1,234 MB (+1141967kb) [00:00:23]
+// [GUI Memory]: 106 MB (+5508kb) [00:00:26]
+// [GUI Memory]: 118 MB (+7372kb) [00:00:27]
+// WARNING: HEventQueue.dispatchEvent() is taking  8277 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:16 . Memory (MB): peak = 1222.758 ; gain = 0.000 
+// Project name: project_1; location: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1; part: xcvc1802-viva1596-1LHP-i-L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 125 MB (+286kb) [00:00:38]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 131 MB (+178kb) [00:01:07]
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 37 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "<Local to Project>", 0); // e
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e
+setFolderChooser("C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/conv.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bz (cs):  Add Sources  : addNotify
+// Tcl Message: add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/conv.v 
+// I (cs): Define Module: addNotify
+dismissDialog("Add Sources"); // bz
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// [GUI Memory]: 142 MB (+5016kb) [00:01:33]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 154 MB (+5028kb) [00:01:39]
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, equalizer.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, equalizer.v]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1570 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, conv (conv.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, conv (conv.v)]", 4, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1456 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, conv (conv.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, conv (conv.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, equalizer.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, equalizer.v]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, equalizer.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v] -no_script -reset -force -quiet 
+// aE (cs): Remove Sources: addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (aE):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v 
+dismissDialog("Remove Sources"); // bz
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e
+setFolderChooser("C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl");
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "equalizer"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+selectCodeEditor("conv.v", 150, 262); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("conv.v", 160, 273); // bP
+// Elapsed time: 61 seconds
+selectCodeEditor("conv.v", 321, 284); // bP
+// Elapsed time: 34 seconds
+selectCodeEditor("conv.v", 135, 288); // bP
+selectCodeEditor("conv.v", 115, 289); // bP
+selectCodeEditor("conv.v", 142, 293); // bP
+selectCodeEditor("conv.v", 127, 284); // bP
+selectCodeEditor("conv.v", 122, 294); // bP
+selectCodeEditor("conv.v", 104, 293); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("conv.v", 111, 291); // bP
+selectCodeEditor("conv.v", 115, 290); // bP
+selectCodeEditor("conv.v", 123, 291); // bP
+selectCodeEditor("conv.v", 153, 288); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("conv.v", 261, 303); // bP
+selectCodeEditor("conv.v", 281, 298); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 297, 305); // bP
+selectCodeEditor("conv.v", 298, 292); // bP
+selectCodeEditor("conv.v", 245, 329); // bP
+selectCodeEditor("conv.v", 173, 322); // bP
+selectCodeEditor("conv.v", 209, 320); // bP
+// Elapsed time: 46 seconds
+selectCodeEditor("conv.v", 215, 300); // bP
+selectCodeEditor("conv.v", 94, 312); // bP
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 247ms to process. Increasing delay to 2000 ms.
+selectCodeEditor("conv.v", 243, 319); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 106, 307); // bP
+selectCodeEditor("conv.v", 177, 294); // bP
+selectCodeEditor("conv.v", 259, 249); // bP
+selectCodeEditor("conv.v", 261, 245, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 231, 227); // bP
+selectCodeEditor("conv.v", 232, 238); // bP
+selectCodeEditor("conv.v", 222, 312); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 172, 300); // bP
+selectCodeEditor("conv.v", 172, 300, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 177, 296); // bP
+selectCodeEditor("conv.v", 186, 290); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 126, 292); // bP
+selectCodeEditor("conv.v", 142, 292); // bP
+selectCodeEditor("conv.v", 361, 302); // bP
+selectCodeEditor("conv.v", 124, 293); // bP
+selectCodeEditor("conv.v", 407, 298); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 126, 291); // bP
+selectCodeEditor("conv.v", 316, 306); // bP
+selectCodeEditor("conv.v", 123, 309); // bP
+selectCodeEditor("conv.v", 145, 294); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("conv.v", 126, 222); // bP
+selectCodeEditor("conv.v", 141, 243); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 209, 321); // bP
+selectCodeEditor("conv.v", 62, 308); // bP
+selectCodeEditor("conv.v", 64, 313); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("conv.v", 149, 293); // bP
+selectCodeEditor("conv.v", 151, 303); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("conv.v", 354, 335); // bP
+selectCodeEditor("conv.v", 369, 307); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 257, 258); // bP
+selectCodeEditor("conv.v", 270, 258); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 75, 295); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 142, 289); // bP
+selectCodeEditor("conv.v", 145, 288); // bP
+selectCodeEditor("conv.v", 145, 288, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 149, 287); // bP
+selectCodeEditor("conv.v", 348, 300); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("conv.v", 176, 288); // bP
+// [GUI Memory]: 164 MB (+1587kb) [00:09:13]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 79, 294); // bP
+selectCodeEditor("conv.v", 275, 287); // bP
+selectCodeEditor("conv.v", 275, 287, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 275, 287); // bP
+selectCodeEditor("conv.v", 275, 287); // bP
+selectCodeEditor("conv.v", 275, 287, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 275, 287); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 275, 287); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 270, 247); // bP
+selectCodeEditor("conv.v", 63, 218); // bP
+selectCodeEditor("conv.v", 74, 256); // bP
+selectCodeEditor("conv.v", 187, 222); // bP
+selectCodeEditor("conv.v", 187, 244); // bP
+selectCodeEditor("conv.v", 191, 268); // bP
+selectCodeEditor("conv.v", 166, 266); // bP
+selectCodeEditor("conv.v", 137, 219); // bP
+selectCodeEditor("conv.v", 142, 243); // bP
+selectCodeEditor("conv.v", 145, 267); // bP
+selectCodeEditor("conv.v", 253, 270); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 154, 274); // bP
+selectCodeEditor("conv.v", 233, 283); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 77, 224); // bP
+selectCodeEditor("conv.v", 79, 242); // bP
+selectCodeEditor("conv.v", 82, 263); // bP
+selectCodeEditor("conv.v", 307, 245); // bP
+selectCodeEditor("conv.v", 64, 266); // bP
+selectCodeEditor("conv.v", 282, 257); // bP
+selectCodeEditor("conv.v", 74, 267); // bP
+selectCodeEditor("conv.v", 243, 289); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("conv.v", 149, 160); // bP
+selectCodeEditor("conv.v", 145, 253); // bP
+selectCodeEditor("conv.v", 143, 268); // bP
+selectCodeEditor("conv.v", 145, 283); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("conv.v", 230, 294); // bP
+selectCodeEditor("conv.v", 223, 297); // bP
+selectCodeEditor("conv.v", 361, 282); // bP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 408, 281); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 30 seconds
+selectCodeEditor("conv.v", 173, 337); // bP
+selectCodeEditor("conv.v", 197, 319); // bP
+// Elapsed time: 26 seconds
+selectCodeEditor("conv.v", 103, 226); // bP
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("conv.v", 173, 280); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("conv.v", 108, 139); // bP
+selectCodeEditor("conv.v", 145, 289); // bP
+selectCodeEditor("conv.v", 150, 290); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("conv.v", 331, 299); // bP
+selectCodeEditor("conv.v", 343, 288); // bP
+selectCodeEditor("conv.v", 366, 277); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("conv.v", 127, 93); // bP
+selectCodeEditor("conv.v", 127, 93, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 218, 297); // bP
+selectCodeEditor("conv.v", 215, 303); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 163, 313); // bP
+selectCodeEditor("conv.v", 166, 315); // bP
+selectCodeEditor("conv.v", 289, 309); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("conv.v", 238, 288); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 235, 326); // bP
+selectCodeEditor("conv.v", 256, 313); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("conv.v", 273, 331); // bP
+selectCodeEditor("conv.v", 279, 338); // bP
+selectCodeEditor("conv.v", 276, 334); // bP
+selectCodeEditor("conv.v", 281, 341); // bP
+selectCodeEditor("conv.v", 389, 337); // bP
+selectCodeEditor("conv.v", 422, 334); // bP
+selectCodeEditor("conv.v", 269, 337); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 447, 335); // bP
+selectCodeEditor("conv.v", 297, 306); // bP
+selectCodeEditor("conv.v", 281, 264); // bP
+selectCodeEditor("conv.v", 397, 271); // bP
+selectCodeEditor("conv.v", 405, 266); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("conv.v", 499, 250); // bP
+selectCodeEditor("conv.v", 495, 257); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 237, 265); // bP
+selectCodeEditor("conv.v", 237, 265, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 46 seconds
+selectCodeEditor("conv.v", 109, 170); // bP
+selectCodeEditor("conv.v", 114, 179); // bP
+selectCodeEditor("conv.v", 130, 179); // bP
+selectCodeEditor("conv.v", 130, 179, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 65, 182); // bP
+selectCodeEditor("conv.v", 60, 173); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 62, 196); // bP
+selectCodeEditor("conv.v", 55, 196); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 58, 211); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 64, 240); // bP
+selectCodeEditor("conv.v", 60, 245); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 67, 268); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 59, 273); // bP
+selectCodeEditor("conv.v", 114, 267); // bP
+selectCodeEditor("conv.v", 262, 280); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 290, 285); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("conv.v", 225, 269); // bP
+selectCodeEditor("conv.v", 279, 267); // bP
+selectCodeEditor("conv.v", 305, 274); // bP
+selectCodeEditor("conv.v", 376, 271); // bP
+selectCodeEditor("conv.v", 348, 276); // bP
+selectCodeEditor("conv.v", 399, 285); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 505, 282); // bP
+selectCodeEditor("conv.v", 127, 218); // bP
+selectCodeEditor("conv.v", 127, 218, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 334, 265); // bP
+selectCodeEditor("conv.v", 280, 300); // bP
+selectCodeEditor("conv.v", 180, 311); // bP
+selectCodeEditor("conv.v", 170, 283); // bP
+selectCodeEditor("conv.v", 139, 275); // bP
+selectCodeEditor("conv.v", 139, 275, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 364, 297); // bP
+selectCodeEditor("conv.v", 186, 303); // bP
+selectCodeEditor("conv.v", 163, 303); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 85, 164); // bP
+selectCodeEditor("conv.v", 109, 326); // bP
+selectCodeEditor("conv.v", 63, 153); // bP
+// Elapsed time: 38 seconds
+selectCodeEditor("conv.v", 359, 254); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 228, 305); // bP
+selectCodeEditor("conv.v", 176, 297); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("conv.v", 221, 286); // bP
+selectCodeEditor("conv.v", 61, 309); // bP
+selectCodeEditor("conv.v", 447, 351); // bP
+selectCodeEditor("conv.v", 396, 311); // bP
+selectCodeEditor("conv.v", 210, 293); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 225, 219); // bP
+selectCodeEditor("conv.v", 269, 187); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("conv.v", 262, 226); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 141, 200); // bP
+selectCodeEditor("conv.v", 371, 246); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 255, 77); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 399, 213); // bP
+selectCodeEditor("conv.v", 281, 218); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 400, 216); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 509, 221); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 397, 249); // bP
+selectCodeEditor("conv.v", 489, 311); // bP
+selectCodeEditor("conv.v", 98, 238); // bP
+selectCodeEditor("conv.v", 85, 257); // bP
+selectCodeEditor("conv.v", 75, 260); // bP
+selectCodeEditor("conv.v", 170, 217); // bP
+selectCodeEditor("conv.v", 255, 215); // bP
+selectCodeEditor("conv.v", 255, 216, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 302, 243); // bP
+selectCodeEditor("conv.v", 226, 260); // bP
+selectCodeEditor("conv.v", 117, 303); // bP
+selectCodeEditor("conv.v", 136, 293); // bP
+// Elapsed time: 37 seconds
+selectCodeEditor("conv.v", 90, 215); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 129, 282); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 153, 293, false, true, false, false, false); // bP - Control Key
+selectCodeEditor("conv.v", 129, 319); // bP
+selectCodeEditor("conv.v", 63, 224); // bP
+selectCodeEditor("conv.v", 207, 329); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 251, 303); // bP
+selectCodeEditor("conv.v", 156, 192); // bP
+selectCodeEditor("conv.v", 155, 191); // bP
+selectCodeEditor("conv.v", 161, 191); // bP
+selectCodeEditor("conv.v", 364, 213); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 365, 224); // bP
+selectCodeEditor("conv.v", 204, 174); // bP
+selectCodeEditor("conv.v", 204, 174, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 193, 285); // bP
+selectCodeEditor("conv.v", 193, 285, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 353, 288); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 150, 312); // bP
+selectCodeEditor("conv.v", 150, 312, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 343, 308); // bP
+selectCodeEditor("conv.v", 224, 310); // bP
+selectCodeEditor("conv.v", 524, 311); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 223, 310); // bP
+selectCodeEditor("conv.v", 155, 197); // bP
+selectCodeEditor("conv.v", 155, 197, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 222, 197); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 334, 195); // bP
+selectCodeEditor("conv.v", 334, 195, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 302, 194); // bP
+selectCodeEditor("conv.v", 280, 201); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 265, 196); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("conv.v", 299, 198); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 309, 197); // bP
+selectCodeEditor("conv.v", 308, 199, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 308, 203); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 365, 204); // bP
+selectCodeEditor("conv.v", 472, 190); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 410, 228); // bP
+selectCodeEditor("conv.v", 224, 241); // bP
+selectCodeEditor("conv.v", 170, 245); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 128, 236); // bP
+selectCodeEditor("conv.v", 116, 267); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 62, 242); // bP
+selectCodeEditor("conv.v", 64, 195); // bP
+selectCodeEditor("conv.v", 170, 196); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 154, 273); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("conv.v", 328, 273); // bP
+selectCodeEditor("conv.v", 166, 241); // bP
+selectCodeEditor("conv.v", 249, 238); // bP
+selectCodeEditor("conv.v", 249, 238, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 323, 227); // bP
+selectCodeEditor("conv.v", 319, 234); // bP
+selectCodeEditor("conv.v", 319, 234, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 295, 84); // bP
+selectCodeEditor("conv.v", 310, 78); // bP
+selectCodeEditor("conv.v", 294, 239); // bP
+selectCodeEditor("conv.v", 314, 245); // bP
+selectCodeEditor("conv.v", 412, 270); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 370, 262); // bP
+selectCodeEditor("conv.v", 153, 288); // bP
+selectCodeEditor("conv.v", 239, 286); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 207, 216); // bP
+selectCodeEditor("conv.v", 208, 313); // bP
+selectCodeEditor("conv.v", 148, 258); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 166, 200); // bP
+selectCodeEditor("conv.v", 205, 267); // bP
+selectCodeEditor("conv.v", 165, 269); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 274, 289); // bP
+selectCodeEditor("conv.v", 244, 118); // bP
+selectCodeEditor("conv.v", 244, 118, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 243, 100); // bP
+selectCodeEditor("conv.v", 243, 100, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 236, 264); // bP
+selectCodeEditor("conv.v", 236, 264, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 354, 263); // bP
+selectCodeEditor("conv.v", 331, 267); // bP
+selectCodeEditor("conv.v", 331, 267, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 299, 271); // bP
+selectCodeEditor("conv.v", 313, 264); // bP
+selectCodeEditor("conv.v", 375, 274); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 309, 291); // bP
+selectCodeEditor("conv.v", 140, 297); // bP
+selectCodeEditor("conv.v", 140, 276); // bP
+selectCodeEditor("conv.v", 124, 246); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 88, 297); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 61, 197); // bP
+selectCodeEditor("conv.v", 303, 218); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 276, 216); // bP
+selectCodeEditor("conv.v", 278, 216, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 182, 269); // bP
+selectCodeEditor("conv.v", 93, 223); // bP
+selectCodeEditor("conv.v", 156, 263); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 100, 217); // bP
+selectCodeEditor("conv.v", 286, 216); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 207, 55); // bP
+selectCodeEditor("conv.v", 207, 55, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 96, 242); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 172, 214); // bP
+selectCodeEditor("conv.v", 167, 252); // bP
+selectCodeEditor("conv.v", 225, 246); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 325, 212); // bP
+selectCodeEditor("conv.v", 236, 281); // bP
+selectCodeEditor("conv.v", 216, 301); // bP
+selectCodeEditor("conv.v", 177, 288); // bP
+selectCodeEditor("conv.v", 184, 285); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 175, 176); // bP
+selectCodeEditor("conv.v", 190, 278); // bP
+selectCodeEditor("conv.v", 119, 217); // bP
+selectCodeEditor("conv.v", 119, 217, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 176, 270); // bP
+selectCodeEditor("conv.v", 177, 281); // bP
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 241, 305); // bP
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("conv.v", 226, 303); // bP
+selectCodeEditor("conv.v", 279, 290); // bP
+selectCodeEditor("conv.v", 254, 266); // bP
+// Elapsed time: 64 seconds
+selectCodeEditor("conv.v", 138, 201); // bP
+selectCodeEditor("conv.v", 145, 192); // bP
+selectCodeEditor("conv.v", 95, 198); // bP
+selectCodeEditor("conv.v", 83, 198); // bP
+selectCodeEditor("conv.v", 103, 132); // bP
+selectCodeEditor("conv.v", 87, 53); // bP
+selectCodeEditor("conv.v", 119, 207); // bP
+selectCodeEditor("conv.v", 119, 207, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 127, 201); // bP
+selectCodeEditor("conv.v", 127, 201, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 205, 191); // bP
+selectCodeEditor("conv.v", 205, 191, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 196, 191); // bP
+selectCodeEditor("conv.v", 196, 191, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 201, 207); // bP
+selectCodeEditor("conv.v", 123, 186); // bP
+selectCodeEditor("conv.v", 123, 186, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("conv.v", 274, 251); // bP
+selectCodeEditor("conv.v", 263, 261); // bP
+// Elapsed time: 38 seconds
+selectCodeEditor("conv.v", 262, 261); // bP
+// Elapsed time: 28 seconds
+selectCodeEditor("conv.v", 178, 260); // bP
+selectCodeEditor("conv.v", 462, 298); // bP
+selectCodeEditor("conv.v", 464, 261); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 365, 293); // bP
+selectCodeEditor("conv.v", 332, 257); // bP
+selectCodeEditor("conv.v", 353, 254); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, conv (conv.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, conv (conv.v)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1291 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1300 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v 
+// Elapsed time: 17 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "<Local to Project>", 0); // e
+setFolderChooser("C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl");
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 2); // e
+setFolderChooser("C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl");
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "equalizer"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1285 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 3, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 61, 231); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 239, 124); // bP
+selectCodeEditor("equalizer.v", 204, 122); // bP
+selectCodeEditor("equalizer.v", 145, 173); // bP
+selectCodeEditor("equalizer.v", 145, 173, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 258, 116); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 79, 191); // bP
+selectCodeEditor("equalizer.v", 79, 191, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 249, 157); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, equalizer.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, equalizer.v]", 2, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("equalizer.v", 156, 320); // bP
+selectCodeEditor("equalizer.v", 136, 337); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 255, 87); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 11 seconds
+selectCodeEditor("equalizer.v", 232, 305); // bP
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("equalizer.v", 240, 220); // bP
+selectCodeEditor("equalizer.v", 177, 242); // bP
+selectCodeEditor("equalizer.v", 167, 261); // bP
+selectCodeEditor("equalizer.v", 167, 271); // bP
+selectCodeEditor("equalizer.v", 163, 282); // bP
+selectCodeEditor("equalizer.v", 161, 291); // bP
+selectCodeEditor("equalizer.v", 158, 301); // bP
+selectCodeEditor("equalizer.v", 147, 159); // bP
+selectCodeEditor("equalizer.v", 147, 159, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 152, 183); // bP
+selectCodeEditor("equalizer.v", 152, 183, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 148, 198); // bP
+selectCodeEditor("equalizer.v", 148, 198, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 134, 262); // bP
+selectCodeEditor("equalizer.v", 133, 266, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 143, 254); // bP
+selectCodeEditor("equalizer.v", 133, 261); // bP
+selectCodeEditor("equalizer.v", 121, 288); // bP
+selectCodeEditor("equalizer.v", 135, 278); // bP
+selectCodeEditor("equalizer.v", 125, 281); // bP
+selectCodeEditor("equalizer.v", 210, 241); // bP
+selectCodeEditor("equalizer.v", 170, 255); // bP
+selectCodeEditor("equalizer.v", 157, 261); // bP
+selectCodeEditor("equalizer.v", 141, 276); // bP
+selectCodeEditor("equalizer.v", 126, 289); // bP
+selectCodeEditor("equalizer.v", 126, 289, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 122, 293); // bP
+selectCodeEditor("equalizer.v", 122, 295); // bP
+selectCodeEditor("equalizer.v", 141, 288); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("equalizer.v", 160, 286); // bP
+selectCodeEditor("equalizer.v", 184, 260); // bP
+selectCodeEditor("equalizer.v", 175, 261); // bP
+selectCodeEditor("equalizer.v", 188, 250); // bP
+selectCodeEditor("equalizer.v", 175, 267); // bP
+selectCodeEditor("equalizer.v", 170, 279); // bP
+selectCodeEditor("equalizer.v", 163, 285); // bP
+selectCodeEditor("equalizer.v", 138, 186); // bP
+selectCodeEditor("equalizer.v", 138, 186, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 151, 209); // bP
+selectCodeEditor("equalizer.v", 155, 208, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 155, 208); // bP
+selectCodeEditor("equalizer.v", 156, 204); // bP
+selectCodeEditor("equalizer.v", 156, 204, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 156, 204); // bP
+selectCodeEditor("equalizer.v", 156, 245); // bP
+selectCodeEditor("equalizer.v", 151, 250); // bP
+selectCodeEditor("equalizer.v", 131, 274); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 97 MB. Current time: 8/7/26, 4:29:14 PM CST
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 161, 266); // bP
+selectCodeEditor("conv.v", 155, 269); // bP
+selectCodeEditor("conv.v", 95, 197); // bP
+selectCodeEditor("conv.v", 265, 248); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 153, 264); // bP
+selectCodeEditor("conv.v", 154, 264); // bP
+selectCodeEditor("conv.v", 161, 263); // bP
+selectCodeEditor("conv.v", 159, 253); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("conv.v", 218, 253); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 312, 312); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 426, 270); // bP
+selectCodeEditor("conv.v", 440, 261); // bP
+selectCodeEditor("conv.v", 259, 262); // bP
+selectCodeEditor("conv.v", 152, 217); // bP
+selectCodeEditor("conv.v", 395, 275); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 80, 125); // bP
+selectCodeEditor("equalizer.v", 80, 125, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 91, 244); // bP
+selectCodeEditor("equalizer.v", 148, 259); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 130, 245); // bP
+selectCodeEditor("equalizer.v", 270, 256); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 217, 253); // bP
+selectCodeEditor("equalizer.v", 189, 255); // bP
+selectCodeEditor("equalizer.v", 126, 244); // bP
+selectCodeEditor("equalizer.v", 232, 253); // bP
+selectCodeEditor("equalizer.v", 130, 241); // bP
+selectCodeEditor("equalizer.v", 204, 254); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 172, 256); // bP
+selectCodeEditor("equalizer.v", 214, 266); // bP
+selectCodeEditor("equalizer.v", 221, 260); // bP
+selectCodeEditor("equalizer.v", 165, 265); // bP
+selectCodeEditor("equalizer.v", 148, 281); // bP
+selectCodeEditor("equalizer.v", 152, 289); // bP
+selectCodeEditor("equalizer.v", 101, 289); // bP
+selectCodeEditor("equalizer.v", 101, 289, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 76 seconds
+selectCodeEditor("equalizer.v", 92, 240); // bP
+selectCodeEditor("equalizer.v", 92, 240, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 96, 240); // bP
+selectCodeEditor("equalizer.v", 96, 240); // bP
+selectCodeEditor("equalizer.v", 99, 246); // bP
+selectCodeEditor("equalizer.v", 101, 246); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 366, 273); // bP
+selectCodeEditor("equalizer.v", 310, 311); // bP
+selectCodeEditor("equalizer.v", 252, 297); // bP
+// Elapsed time: 55 seconds
+selectCodeEditor("equalizer.v", 111, 292); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 35 seconds
+selectCodeEditor("equalizer.v", 293, 313); // bP
+selectCodeEditor("equalizer.v", 251, 317); // bP
+selectCodeEditor("equalizer.v", 248, 306); // bP
+selectCodeEditor("equalizer.v", 213, 322); // bP
+selectCodeEditor("equalizer.v", 207, 335); // bP
+selectCodeEditor("equalizer.v", 203, 338); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 86 seconds
+selectCodeEditor("equalizer.v", 201, 338); // bP
+selectCodeEditor("equalizer.v", 172, 284); // bP
+selectCodeEditor("equalizer.v", 188, 267); // bP
+selectCodeEditor("equalizer.v", 161, 264); // bP
+selectCodeEditor("equalizer.v", 595, 268); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 201, 303); // bP
+selectCodeEditor("equalizer.v", 231, 290); // bP
+selectCodeEditor("equalizer.v", 215, 245); // bP
+selectCodeEditor("equalizer.v", 169, 262); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 35 seconds
+selectCodeEditor("equalizer.v", 184, 296); // bP
+selectCodeEditor("equalizer.v", 86, 263); // bP
+selectCodeEditor("equalizer.v", 198, 255); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 99, 272); // bP
+selectCodeEditor("equalizer.v", 100, 304); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("equalizer.v", 132, 281); // bP
+selectCodeEditor("equalizer.v", 175, 238); // bP
+selectCodeEditor("equalizer.v", 139, 301); // bP
+selectCodeEditor("equalizer.v", 151, 288); // bP
+selectCodeEditor("equalizer.v", 151, 288); // bP
+selectCodeEditor("equalizer.v", 151, 288); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 203, 280); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 99, 274); // bP
+selectCodeEditor("conv.v", 121, 283); // bP
+selectCodeEditor("conv.v", 121, 295); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 63, 199); // bP
+selectCodeEditor("equalizer.v", 222, 231); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 145, 239); // bP
+selectCodeEditor("equalizer.v", 331, 259); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 196, 205); // bP
+selectCodeEditor("equalizer.v", 196, 205, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 124, 249); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("equalizer.v", 183, 268); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 282, 245); // bP
+selectCodeEditor("equalizer.v", 257, 266); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 325, 241); // bP
+selectCodeEditor("equalizer.v", 255, 268); // bP
+selectCodeEditor("equalizer.v", 302, 283); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 216, 268); // bP
+selectCodeEditor("equalizer.v", 226, 262); // bP
+selectCodeEditor("equalizer.v", 266, 253); // bP
+selectCodeEditor("equalizer.v", 276, 255); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 542, 293); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 223, 292); // bP
+selectCodeEditor("equalizer.v", 222, 284); // bP
+selectCodeEditor("equalizer.v", 231, 281); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 40 seconds
+selectCodeEditor("equalizer.v", 325, 290); // bP
+selectCodeEditor("equalizer.v", 276, 293); // bP
+selectCodeEditor("equalizer.v", 280, 289, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 287, 295); // bP
+selectCodeEditor("equalizer.v", 283, 295); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 290, 293); // bP
+selectCodeEditor("equalizer.v", 370, 303); // bP
+selectCodeEditor("equalizer.v", 389, 290); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("equalizer.v", 149, 189); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 156, 275); // bP
+selectCodeEditor("equalizer.v", 152, 288); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 59, 176); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 198, 296); // bP
+selectCodeEditor("equalizer.v", 145, 83); // bP
+selectCodeEditor("equalizer.v", 133, 133); // bP
+selectCodeEditor("equalizer.v", 133, 133, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 137, 146); // bP
+selectCodeEditor("equalizer.v", 138, 122); // bP
+selectCodeEditor("equalizer.v", 207, 147); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 199, 131); // bP
+selectCodeEditor("equalizer.v", 199, 131, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 279, 155); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 132, 193); // bP
+selectCodeEditor("equalizer.v", 132, 193, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 145, 266); // bP
+selectCodeEditor("equalizer.v", 145, 266, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 153, 265); // bP
+selectCodeEditor("equalizer.v", 153, 265, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 251, 268); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 164, 267); // bP
+selectCodeEditor("equalizer.v", 311, 286); // bP
+selectCodeEditor("equalizer.v", 134, 126); // bP
+selectCodeEditor("equalizer.v", 132, 147); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 148, 204); // bP
+selectCodeEditor("equalizer.v", 148, 204, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 197, 269); // bP
+selectCodeEditor("equalizer.v", 197, 269, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 200, 265); // bP
+selectCodeEditor("equalizer.v", 189, 267); // bP
+selectCodeEditor("equalizer.v", 189, 267, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 375, 286); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 147, 291); // bP
+selectCodeEditor("equalizer.v", 147, 291, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 324, 267); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 247, 301); // bP
+selectCodeEditor("equalizer.v", 247, 290); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("equalizer.v", 412, 281); // bP
+selectCodeEditor("equalizer.v", 271, 286); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("equalizer.v", 412, 269); // bP
+selectCodeEditor("equalizer.v", 362, 297); // bP
+selectCodeEditor("equalizer.v", 359, 304); // bP
+selectCodeEditor("equalizer.v", 276, 286); // bP
+selectCodeEditor("equalizer.v", 285, 284); // bP
+selectCodeEditor("equalizer.v", 288, 291); // bP
+selectCodeEditor("equalizer.v", 371, 322); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 371, 322); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("equalizer.v", 214, 211); // bP
+selectCodeEditor("equalizer.v", 214, 185); // bP
+selectCodeEditor("equalizer.v", 221, 163); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("equalizer.v", 162, 267); // bP
+selectCodeEditor("equalizer.v", 154, 283); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("equalizer.v", 55, 308); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectCodeEditor("equalizer.v", 78, 240); // bP
+selectCodeEditor("equalizer.v", 110, 330); // bP
+selectCodeEditor("equalizer.v", 82, 247); // bP
+selectCodeEditor("equalizer.v", 90, 238); // bP
+selectCodeEditor("equalizer.v", 106, 324); // bP
+selectCodeEditor("equalizer.v", 121, 208); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 115, 333); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 190, 287); // bP
+selectCodeEditor("equalizer.v", 61, 316); // bP
+selectCodeEditor("equalizer.v", 140, 303); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 387, 295); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 299, 251); // bP
+selectCodeEditor("equalizer.v", 152, 275); // bP
+selectCodeEditor("equalizer.v", 102, 265); // bP
+selectCodeEditor("equalizer.v", 66, 268); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 377, 230); // bP
+selectCodeEditor("equalizer.v", 348, 238); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 325, 257, false, false, false, true, false); // bP - Popup Trigger
+selectCodeEditor("equalizer.v", 325, 257); // bP
+selectCodeEditor("equalizer.v", 214, 256); // bP
+selectCodeEditor("equalizer.v", 66, 263); // bP
+selectCodeEditor("equalizer.v", 143, 263); // bP
+selectCodeEditor("equalizer.v", 138, 265); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 229, 238); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 159, 240); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 172, 257); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("equalizer.v", 175, 309); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 131, 318); // bP
+selectCodeEditor("equalizer.v", 396, 140); // bP
+selectCodeEditor("equalizer.v", 359, 125); // bP
+selectCodeEditor("equalizer.v", 199, 119); // bP
+selectCodeEditor("equalizer.v", 199, 119, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 189, 122); // bP
+selectCodeEditor("equalizer.v", 299, 130); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1281 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_rx : rx (rx.v)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_rx : rx (rx.v)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1328 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1293 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v), pulse_shaping : rc_filter (rc_filter.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v), pulse_shaping : rc_filter (rc_filter.v), u_interpolation[6].u_interpolation : interpolation (interpolation.v)]", 15, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1304 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tx.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 233, 118); // bP
+selectCodeEditor("equalizer.v", 231, 128); // bP
+selectCodeEditor("equalizer.v", 33, 137); // bP
+selectCodeEditor("equalizer.v", 117, 318); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rc_filter.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 108, 126); // bP
+selectCodeEditor("equalizer.v", 25, 340); // bP
+selectCodeEditor("equalizer.v", 31, 336); // bP
+selectCodeEditor("equalizer.v", 288, 277); // bP
+selectCodeEditor("equalizer.v", 130, 270); // bP
+selectCodeEditor("equalizer.v", 357, 213); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 167, 256); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rc_filter.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 184, 254); // bP
+selectCodeEditor("equalizer.v", 181, 260); // bP
+selectCodeEditor("equalizer.v", 249, 277); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rc_filter.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 98, 130); // bP
+selectCodeEditor("equalizer.v", 123, 134); // bP
+selectCodeEditor("equalizer.v", 118, 134); // bP
+selectCodeEditor("equalizer.v", 128, 129); // bP
+selectCodeEditor("equalizer.v", 137, 129); // bP
+selectCodeEditor("equalizer.v", 303, 108); // bP
+selectCodeEditor("equalizer.v", 303, 108, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 136, 129); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rc_filter.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 127, 118); // bP
+selectCodeEditor("equalizer.v", 127, 118, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 118, 135); // bP
+selectCodeEditor("equalizer.v", 115, 135, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 112, 133); // bP
+selectCodeEditor("equalizer.v", 134, 128); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rc_filter.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 245, 226); // bP
+selectCodeEditor("equalizer.v", 234, 230); // bP
+selectCodeEditor("equalizer.v", 213, 247); // bP
+selectCodeEditor("equalizer.v", 147, 220); // bP
+selectCodeEditor("equalizer.v", 155, 220); // bP
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+// Elapsed time: 12 seconds
+selectCodeEditor("equalizer.v", 207, 318); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 169, 196); // bP
+selectCodeEditor("equalizer.v", 181, 186); // bP
+selectCodeEditor("equalizer.v", 194, 180); // bP
+selectCodeEditor("equalizer.v", 156, 236); // bP
+selectCodeEditor("equalizer.v", 149, 171); // bP
+selectCodeEditor("equalizer.v", 150, 220); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 32 seconds
+selectCodeEditor("equalizer.v", 332, 217); // bP
+selectCodeEditor("equalizer.v", 152, 264); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("equalizer.v", 308, 269); // bP
+selectCodeEditor("equalizer.v", 185, 146); // bP
+selectCodeEditor("equalizer.v", 185, 104); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3, false, true); // m - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 189, 81); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 131, 196); // bP
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("equalizer.v", 403, 193); // bP
+selectCodeEditor("equalizer.v", 264, 203); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 99, 258); // bP
+selectCodeEditor("equalizer.v", 128, 258); // bP
+selectCodeEditor("equalizer.v", 171, 263); // bP
+selectCodeEditor("equalizer.v", 196, 264); // bP
+selectCodeEditor("equalizer.v", 195, 264); // bP
+selectCodeEditor("equalizer.v", 268, 232); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 284, 220); // bP
+selectCodeEditor("equalizer.v", 168, 143); // bP
+selectCodeEditor("equalizer.v", 168, 154); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("equalizer.v", 109, 145); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 117, 222); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 274, 283); // bP
+selectCodeEditor("equalizer.v", 66, 288); // bP
+selectCodeEditor("equalizer.v", 88, 220); // bP
+selectCodeEditor("equalizer.v", 98, 242); // bP
+selectCodeEditor("equalizer.v", 115, 241); // bP
+selectCodeEditor("equalizer.v", 127, 235); // bP
+selectCodeEditor("equalizer.v", 97, 266); // bP
+selectCodeEditor("equalizer.v", 39, 243); // bP
+selectCodeEditor("equalizer.v", 34, 244); // bP
+selectCodeEditor("equalizer.v", 31, 266); // bP
+selectCodeEditor("equalizer.v", 303, 266); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 133, 192); // bP
+selectCodeEditor("equalizer.v", 133, 192, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 143, 255); // bP
+selectCodeEditor("equalizer.v", 153, 248); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 185, 240); // bP
+selectCodeEditor("equalizer.v", 182, 180); // bP
+selectCodeEditor("equalizer.v", 367, 133); // bP
+selectCodeEditor("equalizer.v", 137, 107); // bP
+selectCodeEditor("equalizer.v", 157, 94); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 38 seconds
+selectCodeEditor("equalizer.v", 112, 196); // bP
+selectCodeEditor("equalizer.v", 115, 194); // bP
+selectCodeEditor("equalizer.v", 122, 196); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 72, 203); // bP
+selectCodeEditor("equalizer.v", 72, 203, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 151, 265); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 167, 199); // bP
+// Elapsed time: 132 seconds
+selectCodeEditor("equalizer.v", 255, 172); // bP
+selectCodeEditor("equalizer.v", 245, 207); // bP
+selectCodeEditor("equalizer.v", 259, 202); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("equalizer.v", 376, 194); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("equalizer.v", 244, 126); // bP
+selectCodeEditor("equalizer.v", 241, 126, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 92, 124); // bP
+selectCodeEditor("equalizer.v", 92, 124, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 171, 152); // bP
+selectCodeEditor("equalizer.v", 222, 127); // bP
+selectCodeEditor("equalizer.v", 127, 130); // bP
+selectCodeEditor("equalizer.v", 122, 133); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 300, 125); // bP
+selectCodeEditor("equalizer.v", 305, 136); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 270, 149); // bP
+selectCodeEditor("equalizer.v", 235, 129); // bP
+selectCodeEditor("equalizer.v", 234, 126); // bP
+selectCodeEditor("equalizer.v", 238, 126); // bP
+selectCodeEditor("equalizer.v", 427, 113); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 370, 135); // bP
+selectCodeEditor("equalizer.v", 81, 127); // bP
+selectCodeEditor("equalizer.v", 117, 125); // bP
+selectCodeEditor("equalizer.v", 87, 135); // bP
+selectCodeEditor("equalizer.v", 87, 135, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 80, 129); // bP
+selectCodeEditor("equalizer.v", 80, 129, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 229, 153); // bP
+selectCodeEditor("equalizer.v", 237, 159); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u_tx : tx (tx.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, equalizer.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, equalizer.v]", 2, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 56 seconds
+selectCodeEditor("equalizer.v", 245, 314); // bP
+selectCodeEditor("equalizer.v", 198, 228); // bP
+selectCodeEditor("equalizer.v", 214, 190); // bP
+selectCodeEditor("equalizer.v", 201, 166); // bP
+selectCodeEditor("equalizer.v", 214, 158); // bP
+selectCodeEditor("equalizer.v", 211, 149); // bP
+selectCodeEditor("equalizer.v", 245, 96); // bP
+selectCodeEditor("equalizer.v", 245, 96, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 245, 96); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 200, 187); // bP
+selectCodeEditor("equalizer.v", 213, 172); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 62, 167); // bP
+selectCodeEditor("equalizer.v", 45, 178); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 121, 172); // bP
+selectCodeEditor("equalizer.v", 100, 171); // bP
+selectCodeEditor("equalizer.v", 244, 173); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 244, 173); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 90 MB. Current time: 8/7/26, 4:59:15 PM CST
+// Elapsed time: 153 seconds
+selectCodeEditor("equalizer.v", 212, 247); // bP
+selectCodeEditor("equalizer.v", 221, 240); // bP
+selectCodeEditor("equalizer.v", 212, 228); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 233, 236); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("equalizer.v", 120, 49); // bP
+selectCodeEditor("equalizer.v", 119, 104); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 124, 154); // bP
+selectCodeEditor("conv.v", 119, 264); // bP
+selectCodeEditor("conv.v", 119, 284); // bP
+selectCodeEditor("conv.v", 120, 309); // bP
+selectCodeEditor("conv.v", 85, 241); // bP
+selectCodeEditor("conv.v", 175, 202); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 139, 176); // bP
+selectCodeEditor("conv.v", 140, 183); // bP
+selectCodeEditor("conv.v", 186, 143); // bP
+selectCodeEditor("conv.v", 376, 158); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 161, 82); // bP
+selectCodeEditor("equalizer.v", 249, 90); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 317, 131); // bP
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+// Elapsed time: 88 seconds
+selectCodeEditor("conv.v", 141, 140); // bP
+selectCodeEditor("conv.v", 141, 140, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 153, 155); // bP
+selectCodeEditor("conv.v", 153, 155, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 476, 215); // bP
+selectCodeEditor("conv.v", 476, 215, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 158, 212); // bP
+selectCodeEditor("conv.v", 158, 212, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 147, 220); // bP
+selectCodeEditor("conv.v", 147, 220, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 145, 232); // bP
+selectCodeEditor("conv.v", 145, 232, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 153, 225); // bP
+selectCodeEditor("conv.v", 153, 225, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 151, 204); // bP
+selectCodeEditor("equalizer.v", 151, 204, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectCodeEditor("equalizer.v", 160, 66); // bP
+selectCodeEditor("equalizer.v", 137, 338); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 227, 181); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 228, 178); // bP
+selectCodeEditor("equalizer.v", 161, 226); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 259, 160); // bP
+selectCodeEditor("equalizer.v", 195, 264); // bP
+selectCodeEditor("equalizer.v", 137, 192); // bP
+selectCodeEditor("equalizer.v", 47, 174); // bP
+selectCodeEditor("equalizer.v", 251, 106); // bP
+selectCodeEditor("equalizer.v", 233, 117); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 188, 200); // bP
+selectCodeEditor("equalizer.v", 183, 222); // bP
+selectCodeEditor("equalizer.v", 227, 173); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("equalizer.v", 207, 186); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 47 seconds
+selectCodeEditor("equalizer.v", 450, 266); // bP
+selectCodeEditor("equalizer.v", 427, 295); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 160, 261); // bP
+selectCodeEditor("equalizer.v", 171, 255); // bP
+selectCodeEditor("equalizer.v", 176, 251); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 245, 211); // bP
+selectCodeEditor("conv.v", 249, 223); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 28, 200); // bP
+selectCodeEditor("equalizer.v", 33, 198); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 219, 200); // bP
+selectCodeEditor("equalizer.v", 223, 226); // bP
+selectCodeEditor("equalizer.v", 220, 247); // bP
+selectCodeEditor("equalizer.v", 215, 261); // bP
+selectCodeEditor("equalizer.v", 204, 260); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("equalizer.v", 336, 175); // bP
+selectCodeEditor("equalizer.v", 334, 189); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 245, 242); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 155, 194); // bP
+selectCodeEditor("equalizer.v", 165, 186); // bP
+selectCodeEditor("equalizer.v", 117, 31); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 300, 118); // bP
+selectCodeEditor("equalizer.v", 324, 98); // bP
+selectCodeEditor("equalizer.v", 247, 101); // bP
+selectCodeEditor("equalizer.v", 415, 107); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 179, 248); // bP
+selectCodeEditor("equalizer.v", 156, 56); // bP
+selectCodeEditor("equalizer.v", 191, 61); // bP
+selectCodeEditor("equalizer.v", 202, 56); // bP
+selectCodeEditor("equalizer.v", 169, 66); // bP
+selectCodeEditor("equalizer.v", 104, 63); // bP
+selectCodeEditor("equalizer.v", 314, 115); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 204, 145); // bP
+selectCodeEditor("equalizer.v", 290, 91); // bP
+selectCodeEditor("equalizer.v", 242, 114); // bP
+selectCodeEditor("equalizer.v", 185, 176); // bP
+selectCodeEditor("equalizer.v", 185, 176, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 184, 222); // bP
+selectCodeEditor("equalizer.v", 194, 218); // bP
+selectCodeEditor("equalizer.v", 150, 218); // bP
+selectCodeEditor("equalizer.v", 78, 118, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // an
+selectCodeEditor("equalizer.v", 171, 192); // bP
+selectCodeEditor("equalizer.v", 192, 176); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 54, 198); // bP
+selectCodeEditor("equalizer.v", 190, 188); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 283, 302); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("equalizer.v", 101, 121); // bP
+selectCodeEditor("equalizer.v", 101, 121, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 167, 125); // bP
+selectCodeEditor("equalizer.v", 174, 108); // bP
+selectCodeEditor("equalizer.v", 63, 126); // bP
+selectCodeEditor("equalizer.v", 48, 128); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("equalizer.v", 311, 195); // bP
+selectCodeEditor("equalizer.v", 320, 161); // bP
+selectCodeEditor("equalizer.v", 292, 193); // bP
+selectCodeEditor("equalizer.v", 180, 205); // bP
+selectCodeEditor("equalizer.v", 202, 206); // bP
+selectCodeEditor("equalizer.v", 196, 220); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 84, 293); // bP
+selectCodeEditor("equalizer.v", 2, 237); // bP
+selectCodeEditor("equalizer.v", 72, 285); // bP
+selectCodeEditor("equalizer.v", 80, 286); // bP
+selectCodeEditor("equalizer.v", 44, 218); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 258, 154); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("equalizer.v", 258, 154); // bP
+selectCodeEditor("equalizer.v", 257, 253); // bP
+selectCodeEditor("equalizer.v", 231, 277); // bP
+selectCodeEditor("equalizer.v", 118, 92); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 91, 46); // bP
+selectCodeEditor("equalizer.v", 87, 35); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 157, 232); // bP
+selectCodeEditor("equalizer.v", 53, 246); // bP
+selectCodeEditor("equalizer.v", 120, 263); // bP
+selectCodeEditor("equalizer.v", 120, 263, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 258, 217); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 118, 275); // bP
+selectCodeEditor("conv.v", 119, 200); // bP
+selectCodeEditor("conv.v", 184, 199); // bP
+selectCodeEditor("conv.v", 91, 200); // bP
+selectCodeEditor("conv.v", 123, 197); // bP
+selectCodeEditor("conv.v", 169, 211); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 338, 203); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 239, 185); // bP
+selectCodeEditor("equalizer.v", 229, 193); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 283, 129); // bP
+selectCodeEditor("equalizer.v", 275, 135); // bP
+selectCodeEditor("equalizer.v", 265, 146); // bP
+selectCodeEditor("equalizer.v", 235, 72); // bP
+selectCodeEditor("equalizer.v", 179, 48); // bP
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rx.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 150, 131); // bP
+selectCodeEditor("conv.v", 149, 177); // bP
+selectCodeEditor("conv.v", 160, 169); // bP
+selectCodeEditor("conv.v", 165, 160); // bP
+selectCodeEditor("conv.v", 145, 127); // bP
+selectCodeEditor("conv.v", 113, 168); // bP
+selectCodeEditor("conv.v", 122, 157); // bP
+selectCodeEditor("conv.v", 91, 125); // bP
+selectCodeEditor("conv.v", 140, 234); // bP
+selectCodeEditor("conv.v", 148, 232); // bP
+selectCodeEditor("conv.v", 152, 272); // bP
+selectCodeEditor("conv.v", 156, 287); // bP
+selectCodeEditor("conv.v", 122, 136); // bP
+selectCodeEditor("conv.v", 125, 138, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 123, 140); // bP
+selectCodeEditor("conv.v", 117, 143); // bP
+selectCodeEditor("conv.v", 130, 60); // bP
+selectCodeEditor("conv.v", 130, 60, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 135, 66); // bP
+selectCodeEditor("conv.v", 135, 66, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 119, 148); // bP
+selectCodeEditor("conv.v", 115, 172); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 136, 128); // bP
+selectCodeEditor("equalizer.v", 96, 132); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 220, 134); // bP
+selectCodeEditor("conv.v", 213, 229); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 141, 195); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 93, 175); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 70, 166); // bP
+selectCodeEditor("conv.v", 65, 170); // bP
+selectCodeEditor("conv.v", 266, 174); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 181, 289); // bP
+selectCodeEditor("conv.v", 178, 307); // bP
+selectCodeEditor("conv.v", 211, 181); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("conv.v", 167, 263); // bP
+selectCodeEditor("conv.v", 167, 263, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 63, 268, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // an
+selectCodeEditor("conv.v", 115, 162); // bP
+selectCodeEditor("conv.v", 128, 156); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("conv.v", 187, 158); // bP
+selectCodeEditor("conv.v", 217, 133); // bP
+selectCodeEditor("conv.v", 207, 157); // bP
+selectCodeEditor("conv.v", 144, 217); // bP
+selectCodeEditor("conv.v", 144, 217, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("conv.v", 241, 229); // bP
+selectCodeEditor("conv.v", 247, 255); // bP
+selectCodeEditor("conv.v", 249, 263); // bP
+selectCodeEditor("conv.v", 96, 248); // bP
+selectCodeEditor("conv.v", 146, 198); // bP
+selectCodeEditor("conv.v", 146, 198, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectCodeEditor("conv.v", 91, 194); // bP
+selectCodeEditor("conv.v", 182, 175); // bP
+selectCodeEditor("conv.v", 105, 272); // bP
+selectCodeEditor("conv.v", 105, 272, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 244, 264); // bP
+selectCodeEditor("conv.v", 195, 273); // bP
+selectCodeEditor("conv.v", 195, 273, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "conv.v", 'v'); // bP
+selectCodeEditor("conv.v", 227, 259); // bP
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("conv.v", 267, 264); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 320, 286); // bP
+selectCodeEditor("conv.v", 89, 31); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 193, 39); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 271, 165); // bP
+selectCodeEditor("conv.v", 159, 244); // bP
+selectCodeEditor("conv.v", 169, 276); // bP
+selectCodeEditor("conv.v", 190, 269); // bP
+selectCodeEditor("conv.v", 190, 269, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 276, 226); // bP
+selectCodeEditor("conv.v", 234, 259); // bP
+selectCodeEditor("conv.v", 143, 264); // bP
+selectCodeEditor("conv.v", 143, 264, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 236, 257); // bP
+selectCodeEditor("conv.v", 140, 262); // bP
+selectCodeEditor("conv.v", 349, 237); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 353, 255); // bP
+selectCodeEditor("conv.v", 215, 265); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 402, 216); // bP
+selectCodeEditor("conv.v", 197, 288); // bP
+selectCodeEditor("conv.v", 187, 299); // bP
+selectCodeEditor("conv.v", 185, 308); // bP
+selectCodeEditor("conv.v", 202, 294); // bP
+selectCodeEditor("conv.v", 213, 290); // bP
+selectCodeEditor("conv.v", 220, 313); // bP
+selectCodeEditor("conv.v", 205, 290); // bP
+selectCodeEditor("conv.v", 198, 299); // bP
+selectCodeEditor("conv.v", 161, 270); // bP
+selectCodeEditor("conv.v", 120, 260); // bP
+selectCodeEditor("conv.v", 120, 260); // bP
+selectCodeEditor("conv.v", 120, 260, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("conv.v", 115, 320); // bP
+selectCodeEditor("conv.v", 169, 264); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 218, 153); // bP
+selectCodeEditor("equalizer.v", 206, 189); // bP
+selectCodeEditor("equalizer.v", 175, 201); // bP
+selectCodeEditor("equalizer.v", 275, 198); // bP
+selectCodeEditor("equalizer.v", 229, 201); // bP
+selectCodeEditor("equalizer.v", 170, 189); // bP
+selectCodeEditor("equalizer.v", 113, 188); // bP
+selectCodeEditor("equalizer.v", 90, 202); // bP
+selectCodeEditor("equalizer.v", 126, 211); // bP
+selectCodeEditor("equalizer.v", 126, 211, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 69, 179); // bP
+selectCodeEditor("equalizer.v", 80, 132); // bP
+selectCodeEditor("equalizer.v", 88, 127); // bP
+selectCodeEditor("equalizer.v", 195, 125); // bP
+selectCodeEditor("equalizer.v", 186, 129); // bP
+selectCodeEditor("equalizer.v", 205, 128); // bP
+selectCodeEditor("equalizer.v", 163, 130); // bP
+selectCodeEditor("equalizer.v", 129, 134); // bP
+selectCodeEditor("equalizer.v", 98, 125); // bP
+selectCodeEditor("equalizer.v", 236, 158); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 257, 156); // bP
+selectCodeEditor("equalizer.v", 266, 174); // bP
+selectCodeEditor("equalizer.v", 266, 174, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 266, 174); // bP
+selectCodeEditor("equalizer.v", 304, 165); // bP
+selectCodeEditor("equalizer.v", 304, 165, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 304, 165); // bP
+selectCodeEditor("equalizer.v", 148, 141); // bP
+selectCodeEditor("equalizer.v", 148, 141, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 144, 158); // bP
+selectCodeEditor("equalizer.v", 117, 158); // bP
+selectCodeEditor("equalizer.v", 106, 155); // bP
+selectCodeEditor("equalizer.v", 117, 149); // bP
+selectCodeEditor("equalizer.v", 416, 178); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 370, 187); // bP
+selectCodeEditor("equalizer.v", 69, 149); // bP
+selectCodeEditor("equalizer.v", 74, 146); // bP
+selectCodeEditor("equalizer.v", 126, 151); // bP
+selectCodeEditor("equalizer.v", 236, 151); // bP
+selectCodeEditor("equalizer.v", 225, 152); // bP
+selectCodeEditor("equalizer.v", 304, 135); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 280, 159); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("equalizer.v", 362, 214); // bP
+selectCodeEditor("equalizer.v", 298, 226); // bP
+selectCodeEditor("equalizer.v", 300, 192); // bP
+selectCodeEditor("equalizer.v", 291, 208); // bP
+selectCodeEditor("equalizer.v", 282, 247); // bP
+selectCodeEditor("equalizer.v", 286, 275); // bP
+selectCodeEditor("equalizer.v", 302, 311); // bP
+selectCodeEditor("equalizer.v", 319, 342); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("equalizer.v", 94, 311); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 271, 344); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("equalizer.v", 120, 169); // bP
+selectCodeEditor("equalizer.v", 325, 166); // bP
+selectCodeEditor("equalizer.v", 234, 186); // bP
+selectCodeEditor("equalizer.v", 191, 190); // bP
+selectCodeEditor("equalizer.v", 341, 149); // bP
+selectCodeEditor("equalizer.v", 176, 189); // bP
+selectCodeEditor("equalizer.v", 221, 206); // bP
+selectCodeEditor("equalizer.v", 242, 200); // bP
+selectCodeEditor("equalizer.v", 156, 304); // bP
+selectCodeEditor("equalizer.v", 70, 278); // bP
+selectCodeEditor("equalizer.v", 233, 287); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 423, 260); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("equalizer.v", 296, 260); // bP
+selectCodeEditor("equalizer.v", 296, 260, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 327, 271); // bP
+selectCodeEditor("equalizer.v", 315, 270); // bP
+selectCodeEditor("equalizer.v", 315, 270, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 318, 273); // bP
+// Elapsed time: 62 seconds
+selectCodeEditor("equalizer.v", 99, 244); // bP
+selectCodeEditor("equalizer.v", 174, 237); // bP
+selectCodeEditor("equalizer.v", 189, 243); // bP
+selectCodeEditor("equalizer.v", 134, 247); // bP
+selectCodeEditor("equalizer.v", 131, 289); // bP
+selectCodeEditor("equalizer.v", 141, 262); // bP
+selectCodeEditor("equalizer.v", 255, 266); // bP
+selectCodeEditor("equalizer.v", 244, 263); // bP
+selectCodeEditor("equalizer.v", 350, 261); // bP
+selectCodeEditor("equalizer.v", 468, 259); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 435, 278); // bP
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 130, 36); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("conv.v", 135, 40); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("conv.v", 451, 43); // bP
+selectCodeEditor("conv.v", 161, 105); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 191, 199); // bP
+typeControlKey((HResource) null, "conv.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectCodeEditor("equalizer.v", 296, 238); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 224, 218); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 133, 216); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 214, 218); // bP
+selectCodeEditor("equalizer.v", 201, 223); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("equalizer.v", 136, 214); // bP
+selectCodeEditor("equalizer.v", 142, 221); // bP
+selectCodeEditor("equalizer.v", 177, 229); // bP
+selectCodeEditor("equalizer.v", 140, 224); // bP
+selectCodeEditor("equalizer.v", 132, 221); // bP
+selectCodeEditor("equalizer.v", 126, 201); // bP
+selectCodeEditor("equalizer.v", 196, 219); // bP
+selectCodeEditor("equalizer.v", 183, 251); // bP
+selectCodeEditor("equalizer.v", 166, 267); // bP
+selectCodeEditor("equalizer.v", 299, 149); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 273, 228); // bP
+selectCodeEditor("equalizer.v", 379, 223); // bP
+selectCodeEditor("equalizer.v", 277, 241); // bP
+selectCodeEditor("equalizer.v", 265, 270); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("equalizer.v", 264, 283); // bP
+selectCodeEditor("equalizer.v", 277, 275); // bP
+selectCodeEditor("equalizer.v", 283, 271); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("equalizer.v", 155, 150); // bP
+selectCodeEditor("equalizer.v", 155, 150, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 146, 152); // bP
+selectCodeEditor("equalizer.v", 146, 152, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 186, 269); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 284, 240); // bP
+selectCodeEditor("equalizer.v", 328, 223); // bP
+// Elapsed time: 40 seconds
+selectCodeEditor("equalizer.v", 96, 227); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 285, 270); // bP
+selectCodeEditor("equalizer.v", 92, 173); // bP
+selectCodeEditor("equalizer.v", 99, 170); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 62 seconds
+selectCodeEditor("equalizer.v", 204, 74); // bP
+selectCodeEditor("equalizer.v", 165, 88, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // an
+selectCodeEditor("equalizer.v", 201, 75); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 316, 107); // bP
+selectCodeEditor("equalizer.v", 134, 179); // bP
+selectCodeEditor("equalizer.v", 55, 165, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // an
+selectCodeEditor("equalizer.v", 181, 141); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 62, 171); // bP
+selectCodeEditor("equalizer.v", 102, 114); // bP
+selectCodeEditor("equalizer.v", 122, 91); // bP
+selectCodeEditor("equalizer.v", 113, 93); // bP
+selectCodeEditor("equalizer.v", 145, 76); // bP
+selectCodeEditor("equalizer.v", 48, 86); // bP
+selectCodeEditor("equalizer.v", 242, 147); // bP
+selectCodeEditor("equalizer.v", 183, 61); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 177, 294); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 172, 209); // bP
+selectCodeEditor("equalizer.v", 166, 216); // bP
+selectCodeEditor("equalizer.v", 150, 317); // bP
+// Elapsed time: 64 seconds
+selectCodeEditor("equalizer.v", 158, 287); // bP
+selectCodeEditor("equalizer.v", 319, 247); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 62 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tx.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectCodeEditor("conv.v", 171, 266); // bP
+selectCodeEditor("conv.v", 171, 266, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+// Elapsed time: 28 seconds
+selectCodeEditor("equalizer.v", 160, 130); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 90 MB. Current time: 8/7/26, 5:29:15 PM CST
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 216, 291); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 356, 296); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("equalizer.v", 268, 245); // bP
+selectCodeEditor("equalizer.v", 273, 240); // bP
+selectCodeEditor("equalizer.v", 274, 241); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 246, 259); // bP
+selectCodeEditor("equalizer.v", 243, 247); // bP
+selectCodeEditor("equalizer.v", 165, 130); // bP
+selectCodeEditor("equalizer.v", 155, 138); // bP
+selectCodeEditor("equalizer.v", 161, 124); // bP
+selectCodeEditor("equalizer.v", 364, 163); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 365, 163); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("equalizer.v", 190, 76); // bP
+selectCodeEditor("equalizer.v", 201, 68); // bP
+selectCodeEditor("equalizer.v", 92, 51); // bP
+selectCodeEditor("equalizer.v", 199, 237); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 241, 76); // bP
+selectCodeEditor("equalizer.v", 257, 66); // bP
+selectCodeEditor("equalizer.v", 210, 60); // bP
+selectCodeEditor("equalizer.v", 66, 79); // bP
+selectCodeEditor("equalizer.v", 159, 75); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("equalizer.v", 255, 103); // bP
+selectCodeEditor("equalizer.v", 274, 83); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 193, 153); // bP
+selectCodeEditor("equalizer.v", 203, 134); // bP
+selectCodeEditor("equalizer.v", 266, 93); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("equalizer.v", 186, 170); // bP
+selectCodeEditor("equalizer.v", 210, 165); // bP
+selectCodeEditor("equalizer.v", 221, 160); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("equalizer.v", 129, 232); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 136, 166); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 104, 175); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 280, 140); // bP
+selectCodeEditor("equalizer.v", 150, 181); // bP
+selectCodeEditor("equalizer.v", 175, 170); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 206, 176); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 248, 154); // bP
+selectCodeEditor("equalizer.v", 237, 169); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 217, 224); // bP
+selectCodeEditor("equalizer.v", 268, 206); // bP
+selectCodeEditor("equalizer.v", 171, 201); // bP
+selectCodeEditor("equalizer.v", 171, 201, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 206, 187); // bP
+selectCodeEditor("equalizer.v", 206, 187, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("equalizer.v", 413, 248); // bP
+selectCodeEditor("equalizer.v", 267, 193); // bP
+selectCodeEditor("equalizer.v", 301, 192); // bP
+selectCodeEditor("equalizer.v", 322, 202); // bP
+selectCodeEditor("equalizer.v", 309, 194); // bP
+selectCodeEditor("equalizer.v", 353, 179); // bP
+selectCodeEditor("equalizer.v", 343, 190); // bP
+selectCodeEditor("equalizer.v", 497, 197); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 408, 235); // bP
+selectCodeEditor("equalizer.v", 239, 210); // bP
+selectCodeEditor("equalizer.v", 122, 229); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 144, 286); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 189, 244); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 201, 262); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 189, 286); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("equalizer.v", 175, 123); // bP
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 316, 192); // bP
+selectCodeEditor("equalizer.v", 66, 196); // bP
+selectCodeEditor("equalizer.v", 180, 172, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // an
+selectCodeEditor("equalizer.v", 197, 240); // bP
+selectCodeEditor("equalizer.v", 211, 235); // bP
+selectCodeEditor("equalizer.v", 222, 228); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 270, 91); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 328, 168); // bP
+selectCodeEditor("equalizer.v", 35, 246); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 132, 62); // bP
+selectCodeEditor("equalizer.v", 151, 156); // bP
+selectCodeEditor("equalizer.v", 145, 245); // bP
+selectCodeEditor("equalizer.v", 140, 327); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 348, 255); // bP
+selectCodeEditor("equalizer.v", 218, 194); // bP
+selectCodeEditor("equalizer.v", 237, 235); // bP
+selectCodeEditor("equalizer.v", 239, 275); // bP
+selectCodeEditor("equalizer.v", 251, 284); // bP
+selectCodeEditor("equalizer.v", 250, 301); // bP
+// Elapsed time: 29 seconds
+selectCodeEditor("equalizer.v", 279, 106); // bP
+selectCodeEditor("equalizer.v", 102, 148); // bP
+selectCodeEditor("equalizer.v", 273, 159); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1732 ms. Increasing delay to 5196 ms.
+// Elapsed time: 206 seconds
+selectCodeEditor("equalizer.v", 140, 264); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 3, 127); // bP
+selectCodeEditor("equalizer.v", 116, 190); // bP
+selectCodeEditor("equalizer.v", 320, 209); // bP
+selectCodeEditor("equalizer.v", 61, 242); // bP
+selectCodeEditor("equalizer.v", 352, 261); // bP
+selectCodeEditor("equalizer.v", 331, 311); // bP
+selectCodeEditor("equalizer.v", 349, 291); // bP
+selectCodeEditor("equalizer.v", 201, 200); // bP
+selectCodeEditor("equalizer.v", 190, 182); // bP
+selectCodeEditor("equalizer.v", 127, 226); // bP
+selectCodeEditor("equalizer.v", 117, 240); // bP
+selectCodeEditor("equalizer.v", 80, 303); // bP
+selectCodeEditor("equalizer.v", 142, 247); // bP
+selectCodeEditor("equalizer.v", 161, 225); // bP
+selectCodeEditor("equalizer.v", 331, 221); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 234, 131); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("equalizer.v", 329, 84); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 223, 272); // bP
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v), gen_conv[7].u_conv : conv (conv.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("equalizer.v", 163, 290); // bP
+selectCodeEditor("equalizer.v", 133, 317); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 42 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("equalizer.v", 380, 275); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 342, 334); // bP
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 23 seconds
+selectCodeEditor("equalizer.v", 298, 200); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 336, 272); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("equalizer.v", 268, 436); // bP
+selectCodeEditor("equalizer.v", 289, 493); // bP
+selectCodeEditor("equalizer.v", 244, 595); // bP
+selectCodeEditor("equalizer.v", 237, 608); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 113 seconds
+selectCodeEditor("equalizer.v", 347, 622); // bP
+selectCodeEditor("equalizer.v", 364, 612); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 145, 602); // bP
+selectCodeEditor("equalizer.v", 85, 343); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 119, 599); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 159, 513); // bP
+selectCodeEditor("equalizer.v", 285, 535); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 168, 479); // bP
+selectCodeEditor("equalizer.v", 168, 479, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 193, 540); // bP
+selectCodeEditor("equalizer.v", 193, 540, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 170, 480); // bP
+selectCodeEditor("equalizer.v", 170, 480, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 193, 535); // bP
+selectCodeEditor("equalizer.v", 193, 535, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 154, 567); // bP
+selectCodeEditor("equalizer.v", 154, 567, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 273, 598); // bP
+selectCodeEditor("equalizer.v", 274, 565); // bP
+selectCodeEditor("equalizer.v", 274, 565, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 278, 564); // bP
+selectCodeEditor("equalizer.v", 278, 564, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 289, 583); // bP
+selectCodeEditor("equalizer.v", 279, 570); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 326, 592); // bP
+selectCodeEditor("equalizer.v", 249, 604); // bP
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 287, 606); // bP
+selectCodeEditor("equalizer.v", 358, 542); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 431, 528); // bP
+selectCodeEditor("equalizer.v", 207, 589); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("equalizer.v", 324, 517); // bP
+selectCodeEditor("equalizer.v", 273, 542); // bP
+selectCodeEditor("equalizer.v", 238, 542); // bP
+selectCodeEditor("equalizer.v", 291, 519); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 273, 491); // bP
+selectCodeEditor("equalizer.v", 290, 501); // bP
+selectCodeEditor("equalizer.v", 189, 541); // bP
+selectCodeEditor("equalizer.v", 141, 561); // bP
+selectCodeEditor("equalizer.v", 68, 543); // bP
+selectCodeEditor("equalizer.v", 184, 559); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 93, 492); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("equalizer.v", 95, 497); // bP
+selectCodeEditor("equalizer.v", 93, 515); // bP
+selectCodeEditor("equalizer.v", 47, 494); // bP
+selectCodeEditor("equalizer.v", 149, 548); // bP
+selectCodeEditor("equalizer.v", 47, 541); // bP
+selectCodeEditor("equalizer.v", 43, 608); // bP
+selectCodeEditor("equalizer.v", 47, 614); // bP
+selectCodeEditor("equalizer.v", 196, 628); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 64, 570); // bP
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("equalizer.v", 246, 624); // bP
+selectCodeEditor("equalizer.v", 232, 565); // bP
+selectCodeEditor("equalizer.v", 261, 567); // bP
+selectCodeEditor("equalizer.v", 344, 554); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 346, 581); // bP
+selectCodeEditor("equalizer.v", 182, 589); // bP
+selectCodeEditor("equalizer.v", 286, 586); // bP
+selectCodeEditor("equalizer.v", 304, 586); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 212, 589); // bP
+selectCodeEditor("equalizer.v", 218, 584); // bP
+selectCodeEditor("equalizer.v", 347, 582); // bP
+selectCodeEditor("equalizer.v", 358, 584); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 222, 587); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 352, 607); // bP
+selectCodeEditor("equalizer.v", 351, 587); // bP
+selectCodeEditor("equalizer.v", 124, 396); // bP
+selectCodeEditor("equalizer.v", 124, 396, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 360, 589); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 451, 573); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 402, 618); // bP
+selectCodeEditor("equalizer.v", 310, 600); // bP
+selectCodeEditor("equalizer.v", 263, 611); // bP
+selectCodeEditor("equalizer.v", 136, 501); // bP
+selectCodeEditor("equalizer.v", 136, 501, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 165, 605); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 158, 541); // bP
+selectCodeEditor("equalizer.v", 158, 541, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 229, 612); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 261, 599); // bP
+selectCodeEditor("equalizer.v", 307, 610); // bP
+selectCodeEditor("equalizer.v", 345, 619); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 229, 588); // bP
+selectCodeEditor("equalizer.v", 339, 585); // bP
+selectCodeEditor("equalizer.v", 339, 585); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 242, 618); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("equalizer.v", 254, 634); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v), gen_conv[7].u_conv : conv (conv.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v), gen_conv[0].u_conv : conv (conv.v)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v), gen_conv[0].u_conv : conv (conv.v)]", 9, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("equalizer.v", 168, 285); // bP
+selectCodeEditor("equalizer.v", 168, 305); // bP
+selectCodeEditor("equalizer.v", 185, 285); // bP
+selectCodeEditor("equalizer.v", 226, 267); // bP
+selectCodeEditor("equalizer.v", 177, 288); // bP
+selectCodeEditor("equalizer.v", 319, 329); // bP
+selectCodeEditor("equalizer.v", 79, 246); // bP
+selectCodeEditor("equalizer.v", 100, 65); // bP
+selectCodeEditor("equalizer.v", 206, 457); // bP
+selectCodeEditor("equalizer.v", 336, 605); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "conv.v", 1); // m
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "equalizer.v", 2); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 187, 439); // bP
+// Elapsed time: 24 seconds
+selectCodeEditor("equalizer.v", 144, 385); // bP
+selectCodeEditor("equalizer.v", 137, 384); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("equalizer.v", 167, 376); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 116, 79); // bP
+selectCodeEditor("equalizer.v", 116, 79, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 161, 384); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 371, 410); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 428, 413); // bP
+selectCodeEditor("equalizer.v", 326, 434); // bP
+selectCodeEditor("equalizer.v", 550, 414); // bP
+selectCodeEditor("equalizer.v", 460, 388); // bP
+selectCodeEditor("equalizer.v", 433, 378); // bP
+selectCodeEditor("equalizer.v", 273, 351); // bP
+selectCodeEditor("equalizer.v", 330, 362); // bP
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 200, 401); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 270, 402); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 337, 467); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 92, 502); // bP
+selectCodeEditor("equalizer.v", 138, 474); // bP
+selectCodeEditor("equalizer.v", 140, 475); // bP
+selectCodeEditor("equalizer.v", 165, 243); // bP
+selectCodeEditor("equalizer.v", 165, 243, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 154, 475); // bP
+selectCodeEditor("equalizer.v", 163, 470); // bP
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 371, 474); // bP
+selectCodeEditor("equalizer.v", 383, 529); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 224, 472); // bP
+selectCodeEditor("equalizer.v", 357, 516); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 127 seconds
+selectCodeEditor("equalizer.v", 250, 267); // bP
+selectCodeEditor("equalizer.v", 250, 267, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'c'); // bP
+selectCodeEditor("equalizer.v", 154, 285); // bP
+selectCodeEditor("equalizer.v", 154, 285, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "equalizer.v", 'v'); // bP
+selectCodeEditor("equalizer.v", 354, 312); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("equalizer.v", 278, 120); // bP
+selectCodeEditor("equalizer.v", 353, 352); // bP
+selectCodeEditor("equalizer.v", 298, 343); // bP
+selectCodeEditor("equalizer.v", 288, 342); // bP
+selectCodeEditor("equalizer.v", 326, 344); // bP
+selectCodeEditor("equalizer.v", 310, 351); // bP
+selectCodeEditor("equalizer.v", 322, 388); // bP
+// Elapsed time: 57 seconds
+selectCodeEditor("equalizer.v", 159, 224); // bP
+selectCodeEditor("equalizer.v", 159, 224, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 333, 427); // bP
+selectCodeEditor("equalizer.v", 333, 427, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("equalizer.v", 255, 424); // bP
+selectCodeEditor("equalizer.v", 255, 424, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 119 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Aug  7 17:54:49 2026] Launched synth_1... Run output will be captured here: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Starting Design Runs"); // bz
+selectCodeEditor("equalizer.v", 215, 287); // bP
+selectCodeEditor("equalizer.v", 252, 288); // bP
+selectCodeEditor("equalizer.v", 159, 290); // bP
+selectCodeEditor("equalizer.v", 161, 241); // bP
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v), gen_conv[7].u_conv : conv (conv.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, equalizer (equalizer.v)]", 8, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("equalizer.v", 170, 235); // bP
+selectCodeEditor("equalizer.v", 209, 211); // bP
