@@ -24,17 +24,43 @@ module rx(
     input clk, rst_n,
     input signal_valid,
     input [767:0] signal,
+    input [255:0] equalizer_coe,
+    input [47:0] pam_threshold,
     output [15:0] error
     );
     
-    // 抽样判决
+    // 4倍抽取
+    wire sample_valid;
+    wire [191:0] sample;
+    sampling u_sampling(
+        .signal(signal),
+        .signal_valid(signal_valid),
+        .sample_valid(sample_valid),
+        .sample_out(sample) 
+    );
+    
+    // 信道均衡
+    wire equalized_sample_valid;
+    wire [511:0] equalized_sample;    //16位*32
+    equalizer u_equalizer(
+        .clk(clk),
+        .rst_n(rst_n),
+        .coe(equalizer_coe),
+        .x(sample),
+        .x_valid(sample_valid),
+        .y(equalized_sample),
+        .y_valid(equalized_sample_valid) 
+    );
+    
+    // 判决
     wire bit_valid;
     wire [63:0] bit;
     decision u_decision(
         .clk(clk),
         .rst_n(rst_n),
-        .signal(signal),
-        .signal_valid(signal_valid),
+        .threshold(pam_threshold),
+        .signal(equalized_sample),
+        .signal_valid(equalized_sample_valid),
         .bit_valid(bit_valid),
         .bit_out(bit) 
     );

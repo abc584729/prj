@@ -24,11 +24,15 @@ module test_tb;
 
     reg clk,rst_n,tx_en;
     wire [15:0] error;
-    
+    reg [255:0] equalizer_coe = 0;
+    reg [47:0] pam_threshold = 0;
+        
     top dut(
         .clk(clk),
         .rst_n(rst_n),
         .tx_en(tx_en),
+        .equalizer_coe(equalizer_coe),
+        .pam_threshold(pam_threshold),
         .error(error)
     ); 
     

@@ -87,6 +87,7 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/ber.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/conv.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/decision.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/delay_line.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des.v
@@ -100,11 +101,13 @@ read_verilog -library xil_defaultlib {
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_feistel.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_key_schedule.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/des/des_round.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/equalizer.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/interpolation_unit.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rc_filter.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rom.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/rx.v
+  C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/sampling.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/tx.v
   C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/top.v
 }

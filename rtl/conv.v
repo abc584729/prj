@@ -22,10 +22,27 @@
 
 module conv(
     input clk, rst_n,
-    input [5:0] x[0:15],
-    input [15:0] tap[0:15],
+    input [95:0] x_in,
+    input [255:0] tap_in,
     output [15:0] y
     );
+    
+    // 输入拆分
+    genvar j;
+    wire [5:0] x[0:15];
+    generate 
+        for (j=0;j<16;j=j+1)begin
+            assign x[j] = x_in[6*j+:6];
+        end
+    endgenerate 
+    
+    // 系数拆分
+    wire [15:0] tap[0:15];
+    generate 
+        for (j=0;j<16;j=j+1)begin
+            assign tap[j] = tap_in[16*j+:16];
+        end
+    endgenerate 
     
     reg signed [22:0] mult [0:15];
     reg signed [23:0] add0 [0:7];

@@ -28,3 +28,21 @@ update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1 -jobs 4
 wait_on_run synth_1
+close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/sampling.v w ]
+add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/sampling.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

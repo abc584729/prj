@@ -22,6 +22,8 @@
 
 module top(
     input clk, rst_n, tx_en,
+    input [255:0] equalizer_coe,
+    input [47:0] pam_threshold,
     output [15:0] error
     );
     
@@ -39,6 +41,8 @@ module top(
     rx u_rx(
         .clk(clk),
         .rst_n(rst_n),
+        .equalizer_coe(equalizer_coe),
+        .pam_threshold(pam_threshold),
         .signal(signal),
         .signal_valid(signal_valid),
         .error(error)

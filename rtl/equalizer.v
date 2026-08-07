@@ -51,18 +51,9 @@ module equalizer(
         end
     end
     
-    // 滤波器系数拆分
-    genvar j;
-    wire [15:0] tap[0:15];
-    generate 
-        for (j=0;j<16;j=j+1)begin
-            assign tap[j] = coe[16*j+:16];
-        end
-    endgenerate 
-    
     // 卷积
     wire [5:0] x_ext [0:46];
-    wire [5:0] x_in[0:31][0:15];
+    wire [95:0] x_in[0:31];
     genvar row, col;
     generate 
         for(col=0;col<15;col=col+1)begin 
@@ -73,15 +64,15 @@ module equalizer(
         end
         for (row=0; row<32; row=row+1) begin : gen_conv
             for (col=0; col<16; col=col+1) begin : gen_window
-                assign x_in[row][col] = x_ext[row+col];
+                assign x_in[row][6*col+:6] = x_ext[row+col];
             end
             //卷积模块
             conv u_conv (
-                .clk   (clk),
-                .rst_n (rst_n),
-                .tap   (tap),
-                .x     (x_in[row]),
-                .y     (y[16*row +: 16])
+                .clk(clk),
+                .rst_n(rst_n),
+                .tap_in(coe),
+                .x_in(x_in[row]),
+                .y(y[16*row +: 16])
             );
         end
     endgenerate 

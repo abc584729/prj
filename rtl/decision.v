@@ -23,11 +23,20 @@
 module decision(
     input clk, rst_n,
     input signal_valid,
-    input [767:0] signal,
+    input [511:0] signal,
+    input [47:0] threshold,
     output reg bit_valid,
     output [63:0] bit_out
     );
     
+    wire [15:0] threshold_1;
+    wire [15:0] threshold_2;
+    wire [15:0] threshold_3;
+
+    assign threshold_1 = threshold[15:0];
+    assign threshold_2 = threshold[31:16];
+    assign threshold_3 = threshold[47:32];
+
     reg [63:0] bit;
     // ³éÑùÅĞ¾ö        
     integer i;
@@ -35,9 +44,9 @@ module decision(
         for (i=0;i<32;i=i+1)begin
             if(!rst_n) bit[2*i+:2] <= 0;
             else begin
-                if (signal[24*i+:6]< 6'd9) bit[2*i+:2] <= 2'b00;
-                else if (signal[24*i+:6]< 6'd26) bit[2*i+:2] <= 2'b01;
-                else if (signal[24*i+:6]< 6'd44) bit[2*i+:2] <= 2'b10;
+                if (signal[16*i+:16]< threshold_1) bit[2*i+:2] <= 2'b00;
+                else if (signal[16*i+:16]< threshold_2) bit[2*i+:2] <= 2'b01;
+                else if (signal[16*i+:16]< threshold_3) bit[2*i+:2] <= 2'b10;
                 else bit[2*i+:2] <= 2'b11;
             end
         end

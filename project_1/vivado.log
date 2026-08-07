@@ -39,3 +39,33 @@ WARNING: [Vivado 12-1017] Problems encountered:
 launch_runs synth_1 -jobs 4
 [Fri Aug  7 17:54:49 2026] Launched synth_1...
 Run output will be captured here: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/runme.log
+close [ open C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/sampling.v w ]
+add_files C:/Users/33064/OneDrive/Desktop/prj-main-2/rtl/sampling.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Fri Aug  7 18:27:39 2026] Launched synth_1...
+Run output will be captured here: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Fri Aug  7 18:57:05 2026] Launched synth_1...
+Run output will be captured here: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Fri Aug  7 19:09:20 2026] Launched synth_1...
+Run output will be captured here: C:/Users/33064/OneDrive/Desktop/prj-main-2/project_1/project_1.runs/synth_1/runme.log
