@@ -134,8 +134,6 @@
 
 ## 二、上板测试
 
-系统使用 **VU9P 作为发射端**、**VU13P 作为接收端**。测试遵循“基础链路 → 无信号基线 → 训练序列 → 相关同步 → 数据切换 → 端到端验证”的顺序，各阶段通过后再进入下一阶段。
-
 ### 1. 调试接口
 
 主要 VIO/ILA 调试信号如下：
@@ -153,170 +151,35 @@
 | VU13P | `ila_rx_status` | `probe3` | `encrypted_data_valid` | 指示已检测到训练序列至数据序列的切换 |
 | VU13P | `ila_rx_status` | `probe4` | `encrypted_data[767:0]` | 输出完成对齐后的 128 个 6 bit 数据 |
 
-### 2. 上板前检查
+### 2. 测试流程
 
-1. 确认下载的 `.bit` 与 `.ltx` 来自同一次构建，避免 ILA/VIO 探针错位。
-2. 按照厂商操作手册完成两块板卡的时钟、GT、AD/DA 校准及链路同步，并确认所有锁定信号持续稳定。
-3. 将以下文件作为 **Memory Initialization Files** 加入对应 Vivado 工程，并在综合后核对 ROM 初始化内容：
-
-   - VU9P：`train_sequence_32x2.mem`
-   - VU13P：`corr_template_128x6.mem`、`equalizer.mem`
-
-4. 修正 `rx.v` 中切换检测阈值的位宽：
-
-   ```verilog
-   wire [5:0] start_threshold = 6'd15;
-   ```
-
-   原声明缺少 `[5:0]`，实际传入的阈值为 `1`，会使 `encrypted_data_valid` 极易被噪声误触发。
-
-5. 若要验证完整接收链路，还必须生成非零均衡器系数并为 `pam_threshold[47:0]` 提供三个有效判决门限。否则测试范围仅限于同步、采集和 MATLAB 离线验证。
-
-### 3. 测试流程
-
-#### 3.1 初始化与链路同步
+#### 2.1 初始化与链路同步
 
 完成板卡初始化后，将各控制信号设置为：
 
 | 信号 | 初始值 | 说明 |
 | --- | ---: | --- |
-| `data_sw_vio` | `1` | 选择自研 `tx` 产生的 `data_gen` 作为 DAC 数据源 |
+| `data_sw_vio` | `0` | `tx` 产生的 `data_gen` 作为 DAC 数据源 |
 | `tx_rst_n` | `0` | 保持发射链路复位 |
 | `tx_en` | `0` | 选择训练序列模式 |
 | `rx_rst_n` | `0` | 保持接收链路复位 |
 
-> [!CAUTION]
-> `start_flag`、`correlation_finish` 和 `encrypted_data_valid` 均会在拉高后保持状态。每次测试必须先将 `rx_rst_n` 拉低清除状态，配置并启动 ILA 后，再解除复位或切换 `tx_en`。
+#### 2.2 无信号采集
 
-#### 3.2 无信号基线采集
-
-保持 `tx_rst_n = 0` 和 `rx_rst_n = 0`，直接使用 `ila_01` 采集 `data_all`。`ila_01` 位于自研接收模块之前，因此采集基线不需要解除 `rx` 复位。
+保持 `tx_rst_n = 0` 和 `rx_rst_n = 0`，直接使用 `ila_01` 采集 `data_all`。
 
 导出采样数据，统计各通道的中值、标准差、峰峰值以及 `0`/`63` 饱和比例，据此调整粗检测范围。无信号状态下不应出现明显削顶或大幅漂移。
 
-#### 3.3 训练序列发送与帧同步
+#### 2.3 训练序列发送与帧同步
 
 1. 将 `tx_rst_n` 置为 `1`，保持 `tx_en = 0`，等待训练波形和模拟链路稳定。
 2. 保持 `rx_rst_n = 0`，将 `ila_rx_status` 的触发条件设置为 `probe1`（`correlation_finish`）上升沿并启动采集。
 3. 将 `rx_rst_n` 置为 `1`，启动粗检测和相关峰搜索。
 4. 捕获完成后，确认 `start_flag = 1`、`correlation_finish = 1`，并记录 `max_addr`。
 
-若需单独观察 `start_flag` 上升沿，应重新拉低 `rx_rst_n`，单独执行一次“先启动 ILA、再解除复位”的捕获，不能在一次测试中人工切换两个上升沿触发条件。
-
-#### 3.4 同步重复性与训练数据验证
-
-建议至少重复 100 次以下操作：
-
-```text
-rx_rst_n = 0 → 启动 ILA → rx_rst_n = 1
-```
-
-每次记录相关是否完成及 `max_addr`。使用 `ila_01` 导出多帧训练数据，在 MATLAB 中完成以下检查：
-
-- 硬件 `max_addr` 与软件循环相关结果一致；
-- 相关主峰相对旁瓣具有明确裕量；
-- PAM4 四个电平簇可分，且没有明显削顶；
-- 比较四种抽样相位，选择眼高最大或判决误差最小的相位。
-
-仅检查 `max_addr` 是否稳定并不足以证明同步正确；稳定的错误峰也可能通过该检查。
-
-#### 3.5 均衡器生成与重新烧录
-
-使用实测训练数据生成 16 抽头定点均衡器系数和三个 PAM4 判决门限，并完成符号位、Q 格式、截断及溢出的位精确验证。随后执行：
-
-```text
-更新 equalizer.mem 和判决门限
-→ 重新综合与实现
-→ 重新生成 .bit/.ltx
-→ 重新烧录 VU13P
-→ 从初始化步骤重新测试
-```
-
-`equalizer.mem` 由 `$readmemb` 在综合期加载，更新系数后不能直接继续测试，必须重新生成并烧录比特流。
-
-#### 3.6 数据序列发送与切换检测
+#### 2.4 数据序列发送与切换检测
 
 1. 保持训练模式，即 `tx_en = 0`。
 2. 将 `ila_rx_status` 设置为 `probe3`（`encrypted_data_valid`）上升沿触发并启动采集。
 3. 再将 `tx_en` 置为 `1`，使发射端切换到加密数据序列。
 4. 捕获 `probe4` 的首帧及后续多帧数据，与 MATLAB 或软件 DES 参考结果逐帧比较。
-
-若数据不一致，应依次检查窗口对齐、抽样相位、均衡输出和 PAM4 判决，不应直接使用最终错误计数定位问题。
-
-#### 3.7 端到端验证
-
-完整验证建议增加以下 ILA 信号：
-
-```text
-aligned_data / aligned_valid
-sample / sample_valid
-equalized_sample / equalized_sample_valid
-bit / bit_valid
-decrypt_bit / decrypt_bit_valid
-key_index / payload_index
-```
-
-按“对齐 → 抽样 → 均衡 → PAM4 判决 → DES 解密 → 错误统计”的顺序逐级核对。当前 `ber.v` 统计的是错误的 `64 bit` 数据块数，并非逐比特 BER；如需正式误码率，应增加逐位异或计数、总比特数以及清零/快照控制。
-
-### 4. 建议验收标准
-
-| 阶段 | 验收标准 |
-| --- | --- |
-| 板卡初始化 | 时钟、GT、AD/DA 及校准锁定信号持续稳定 |
-| 无信号基线 | 无明显削顶，均值和噪声水平稳定 |
-| 相关同步 | 100 次测试均完成相关，`max_addr` 至少 99 次一致，并与 MATLAB 结果相符 |
-| 训练数据 | 四电平可分、抽样相位合理、相关主峰具有明确裕量 |
-| 数据切换 | ILA 在切换后产生预期触发，训练期间不得提前触发 |
-| 端到端链路 | 各中间级与软件参考逐级一致后，再统计 BER |
-
-## 三、Vivado 工程构建说明
-
-### 1. 工具版本
-
-| 工程 | Vivado 版本 | FPGA 器件 |
-| --- | --- | --- |
-| VU9P 发射工程 | 2019.2 | `xcvu9p-flgb2104-2-e` |
-| VU13P 接收工程 | 2021.1 | `xcvu13p-flga2577-2-i` |
-
-仓库中的历史 `.bit` 早于当前通信 RTL，不能证明当前版本已经完成构建。只有当前源码的 `impl_1` 完成 `write_bitstream`，并且 DRC 和时序均通过，才能作为可用版本上板。
-
-### 2. VU9P IP 状态
-
-VU9P 工程中的小锁图标不一定表示 IP 失效：
-
-- Xilinx 加密 HDL 本身不可编辑，属于正常现象；
-- CPU Block Design 管理的子 XCI 应从 `CPU.bd` 修改，不能直接编辑；
-- 当前 BD/IP 输出产物曾被 Reset，需要重新生成 Output Products；
-- 若使用高于 2019.2 的 Vivado 打开工程，可能出现版本或 Revision 不匹配锁定。
-
-建议先在 Vivado 2019.2 的 Tcl Console 中执行：
-
-```tcl
-report_ip_status -file ip_status.rpt
-get_ips -all -filter {IS_LOCKED == 1}
-```
-
-没有真实锁定时，只需重新生成 BD/IP 输出产物。若报告版本锁定，优先使用 Vivado 2019.2 复现；如必须升级，应在工程副本中操作，并重新验证 GT、时钟、MicroBlaze、ILA/VIO 及 `.bit/.ltx` 配对。不要将工程中残留的旧 VU13P 子 IP 目录重新加入 VU9P 工程。
-
-### 3. 比特流生成判据
-
-完成 IP 状态检查和 `.mem` 文件配置后，重新运行顶层综合与实现：
-
-```tcl
-reset_run synth_1
-launch_runs synth_1 -jobs 8
-wait_on_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-open_run impl_1
-report_timing_summary -file timing_summary.rpt
-report_drc -file drc.rpt
-```
-
-只有同时满足以下条件，才可判定当前工程能够生成可用比特流：
-
-- `synth_1` 和 `impl_1` 均成功完成；
-- `impl_1` 状态为 `write_bitstream Complete`；
-- DRC 无 Error；
-- WNS/TNS 满足时序要求；
-- `.bit` 与 `.ltx` 来自同一次构建。
