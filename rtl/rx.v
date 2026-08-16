@@ -70,7 +70,7 @@ module rx(
         .addr_set_value(7'b0)
     );
     
-    wire start_threshold = 6'd15;
+    wire [5:0] start_threshold = 6'd15;
     wire encrypted_data_valid;
     wire [767:0] encrypted_data_pre,encrypted_data,encrypted_data_after;
     // —µ¡∑–Ú¡–-∑¢…‰–Ú¡–«–ªªºÏ≤‚
@@ -86,6 +86,15 @@ module rx(
         .encrypted_data_after(encrypted_data_after)
     );
     
+    ila_3 ila_rx_status (
+        .clk(clk), // input wire clk
+        .probe0(start_flag), // input wire [0:0]  probe0  
+        .probe1(correlation_finish), // input wire [0:0]  probe1 
+        .probe2(max_addr), // input wire [6:0]  probe2 
+        .probe3(encrypted_data_valid), // input wire [0:0]  probe3 
+        .probe4(encrypted_data) // input wire [767:0]  probe4
+    );
+
     // 4±∂≥È»°
     wire sample_valid;
     wire [191:0] sample;
